@@ -1,0 +1,60 @@
+{
+    "port": 3000,
+    "address": "localhost",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "grading": "incremental",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": null,
+    "language": "python3",
+    "compiler": "python3",
+    "tester": "pytest",
+    "actions": [
+        "run",
+        "test",
+        "reset"
+    ],
+    "session": 8329849619825331000,
+    "exercisesPath": "./.breathecode/exercises",
+    "exercises": [
+        {
+            "slug": "01-intro",
+            "title": "01-intro",
+            "done": false,
+            "path": ".breathecode/exercises/01-intro",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "02-pipenv-installation",
+            "title": "02-pipenv-installation",
+            "done": false,
+            "path": ".breathecode/exercises/02-pipenv-installation",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "02.1-flask-installation",
+            "title": "02.1-flask-installation",
+            "done": false,
+            "path": ".breathecode/exercises/02.1-flask-installation",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "03-runnig-flask",
+            "title": "03-runnig-flask",
+            "done": false,
+            "path": ".breathecode/exercises/03-runnig-flask",
+            "translations": [
+                "us"
+            ]
+        }
+    ]
+}
