@@ -48,10 +48,19 @@
             ]
         },
         {
-            "slug": "03-runnig-flask",
-            "title": "03-runnig-flask",
+            "slug": "03-creating-your-first-api",
+            "title": "03-creating-your-first-api",
             "done": false,
-            "path": ".breathecode/exercises/03-runnig-flask",
+            "path": ".breathecode/exercises/03-creating-your-first-api",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "04-runnig-flask",
+            "title": "04-runnig-flask",
+            "done": false,
+            "path": ".breathecode/exercises/04-runnig-flask",
             "translations": [
                 "us"
             ]

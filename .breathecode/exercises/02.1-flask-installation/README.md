@@ -1,17 +1,17 @@
-## `02` Initialize Pipenv
+## `02.1` Install Flask
 
 Now we have to install our first package dependency for this project: [Flask](https://flask.palletsprojects.com/en/1.1.x/).
 
 ## 📝Instructions
 
-Run the following command to create a new virtual environment with python 3 on it:
+Run the following command on your terminal to install the flask package:
 
 ```bash
-$ pipenv --three
+$ pipenv install flask
 ```
 
-   
-   
-> You should see a **PipFile** on the root of your project and it should have inside a **[requires]** for python version 3+
+Expected console output:
+
+![Expected console ouput](https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.breathecode/assets/install-flask.png?raw=true)
 
 Test your step and click `next →` continue.
