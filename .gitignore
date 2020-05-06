@@ -6,13 +6,6 @@
 !bc.json
 !README.md
 
-# python garbage
-*.pyc
-.venv
-conftest.py
-__pycache__/
-.pytest_cache/
-
 # breathecode exercises
 !/.breathecode
 /.breathecode/**
@@ -20,3 +13,10 @@ __pycache__/
 !/.breathecode/exercises/**
 !/.breathecode/assets
 !/.breathecode/assets/**
+
+# python garbage
+*.pyc
+.venv
+conftest.py
+__pycache__/
+.pytest_cache/
