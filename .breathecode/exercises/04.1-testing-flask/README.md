@@ -1,9 +1,9 @@
-## `04` Running Flask
+## `04` Testing flask
 
 ## 📝Instructions
 
 Run your new server by typing on a separate terminal the following command:
 
 ```bash
-$ pipenv run python src/app.py
+$ python pipenv python src/app.py
 ```

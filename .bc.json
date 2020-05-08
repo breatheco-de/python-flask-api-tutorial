@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "localhost",
+    "address": "https://db643e67-c39d-4394-b8fb-49bf7ba29180.ws-us02.gitpod.io",
     "editor": "gitpod",
     "outputPath": "./.breathecode/dist",
     "publicPath": "/preview",
@@ -48,10 +48,28 @@
             ]
         },
         {
-            "slug": "03-creating-your-first-api",
-            "title": "03-creating-your-first-api",
+            "slug": "03-first-flask-app",
+            "title": "03-first-flask-app",
             "done": false,
-            "path": ".breathecode/exercises/03-creating-your-first-api",
+            "path": ".breathecode/exercises/03-first-flask-app",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "03.1-app-run",
+            "title": "03.1-app-run",
+            "done": true,
+            "path": ".breathecode/exercises/03.1-app-run",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "03.2-your-first-route",
+            "title": "03.2-your-first-route",
+            "done": false,
+            "path": ".breathecode/exercises/03.2-your-first-route",
             "translations": [
                 "us"
             ]
@@ -61,6 +79,33 @@
             "title": "04-runnig-flask",
             "done": false,
             "path": ".breathecode/exercises/04-runnig-flask",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "04.1-testing-flask",
+            "title": "04.1-testing-flask",
+            "done": false,
+            "path": ".breathecode/exercises/04.1-testing-flask",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "05-returning-json",
+            "title": "05-returning-json",
+            "done": false,
+            "path": ".breathecode/exercises/05-returning-json",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "05-returning-json_copy",
+            "title": "05-returning-json_copy",
+            "done": false,
+            "path": ".breathecode/exercises/05-returning-json_copy",
             "translations": [
                 "us"
             ]
