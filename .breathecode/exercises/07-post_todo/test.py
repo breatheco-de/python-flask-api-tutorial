@@ -85,3 +85,17 @@ def test_return(client):
     for task in _body:
         assert "label" in task
         assert "done" in task
+
+@pytest.mark.it("The function add_new_todo should be declared")
+def test_add_new_todo():
+    from src import app
+    try:
+        app.add_new_todo
+        assert callable(app.add_new_todo)
+    except AttributeError:
+        raise AttributeError("The function 'add_new_todo' should exist on app.py")
+
+@pytest.mark.it("The endpoint POST /todos should exist")
+def test_return(client):
+    response = client.post('/todos')
+    assert response.status_code == 200

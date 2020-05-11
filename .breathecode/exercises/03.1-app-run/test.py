@@ -9,6 +9,6 @@ def isOpen(ip,port):
    except:
       return False
 
-@pytest.mark.it("Make sure your app server is running on port 3245")
+@pytest.mark.it("Make sure your app server is running, did you run the app.py?")
 def test_import_hello(config):
   assert isOpen('0.0.0.0', 3245)
