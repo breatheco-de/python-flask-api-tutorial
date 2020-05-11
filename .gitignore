@@ -9,9 +9,9 @@
 # breathecode exercises
 !/.breathecode
 /.breathecode/**
+!/.breathecode/bc.json
+!/.breathecode/.bc.json
 !/.breathecode/exercises
-!/.breathecode/exercises/bc.json
-!/.breathecode/exercises/.bc.json
 !/.breathecode/exercises/**
 !/.breathecode/assets
 !/.breathecode/assets/**
