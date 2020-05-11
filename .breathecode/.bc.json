@@ -1,12 +1,12 @@
 {
     "port": 3000,
-    "address": "https://db643e67-c39d-4394-b8fb-49bf7ba29180.ws-us02.gitpod.io",
+    "address": "https://a946c73d-7502-44fd-8fe5-9e9fc473ee6b.ws-us02.gitpod.io",
     "editor": "gitpod",
     "outputPath": "./.breathecode/dist",
     "publicPath": "/preview",
     "grading": "incremental",
     "ignoreRegex": null,
-    "webpack_template": null, 
+    "webpack_template": null,
     "disable_grading": false,
     "onCompilerSuccess": null,
     "language": "python3",
@@ -59,7 +59,7 @@
         {
             "slug": "03.1-app-run",
             "title": "03.1-app-run",
-            "done": true,
+            "done": false,
             "path": ".breathecode/exercises/03.1-app-run",
             "translations": [
                 "us"

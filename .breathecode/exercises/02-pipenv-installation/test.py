@@ -1,10 +1,10 @@
 import toml, pytest, os
 
-@pytest.mark.it("Pipfile must exist")
+@pytest.mark.it("Pipfile must exist, make sure you initialized the environment")
 def test_pipfile_exists():
   assert os.path.isfile("Pipfile")
 
-@pytest.mark.it("Python version on Pipfile must be 3+")
+@pytest.mark.it("Python version on Pipfile must be 3+, did you run $ pipenv --three ?")
 def test_pipfile_contains_python_version():
   with open("Pipfile", "r") as f:
     toml_content = f.read()
