@@ -27,6 +27,8 @@ from flask import request
 print(request.data)
 ```
 
+## 📝 Instructions
+
 Add the folowing endpoint to your app.py and test it:
 
 ```python
@@ -35,4 +37,10 @@ def add_new_todo():
     request_body = request.data
     print("Incoming request with the following body", request_body)
     return 'Response for the POST todo'
+```
+
+Remember to import request at the top of the file:
+
+```python
+from flask import request
 ```

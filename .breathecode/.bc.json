@@ -21,10 +21,19 @@
     "exercisesPath": "./.breathecode/exercises",
     "exercises": [
         {
-            "slug": "01-intro",
-            "title": "01-intro",
+            "slug": "00-intro",
+            "title": "00-intro",
+            "done": true,
+            "path": ".breathecode/exercises/00-intro",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "01-hello-world",
+            "title": "01-hello-world",
             "done": false,
-            "path": ".breathecode/exercises/01-intro",
+            "path": ".breathecode/exercises/01-hello-world",
             "translations": [
                 "us"
             ]
@@ -32,7 +41,7 @@
         {
             "slug": "02-pipenv-installation",
             "title": "02-pipenv-installation",
-            "done": false,
+            "done": true,
             "path": ".breathecode/exercises/02-pipenv-installation",
             "translations": [
                 "us"
@@ -41,7 +50,7 @@
         {
             "slug": "02.1-flask-installation",
             "title": "02.1-flask-installation",
-            "done": false,
+            "done": true,
             "path": ".breathecode/exercises/02.1-flask-installation",
             "translations": [
                 "us"
@@ -66,10 +75,19 @@
             ]
         },
         {
-            "slug": "03.2-your-first-route",
-            "title": "03.2-your-first-route",
+            "slug": "03.2-check-for-live",
+            "title": "03.2-check-for-live",
             "done": false,
-            "path": ".breathecode/exercises/03.2-your-first-route",
+            "path": ".breathecode/exercises/03.2-check-for-live",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "03.3-your-first-route",
+            "title": "03.3-your-first-route",
+            "done": true,
+            "path": ".breathecode/exercises/03.3-your-first-route",
             "translations": [
                 "us"
             ]
@@ -77,17 +95,8 @@
         {
             "slug": "04-runnig-flask",
             "title": "04-runnig-flask",
-            "done": false,
+            "done": true,
             "path": ".breathecode/exercises/04-runnig-flask",
-            "translations": [
-                "us"
-            ]
-        },
-        {
-            "slug": "04.1-testing-flask",
-            "title": "04.1-testing-flask",
-            "done": false,
-            "path": ".breathecode/exercises/04.1-testing-flask",
             "translations": [
                 "us"
             ]
@@ -95,17 +104,71 @@
         {
             "slug": "05-returning-json",
             "title": "05-returning-json",
-            "done": false,
+            "done": true,
             "path": ".breathecode/exercises/05-returning-json",
             "translations": [
                 "us"
             ]
         },
         {
-            "slug": "05-returning-json_copy",
-            "title": "05-returning-json_copy",
+            "slug": "06-check-for-live",
+            "title": "06-check-for-live",
+            "done": true,
+            "path": ".breathecode/exercises/06-check-for-live",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "07-post_todo",
+            "title": "07-post_todo",
+            "done": true,
+            "path": ".breathecode/exercises/07-post_todo",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "07.1-test-post-todo",
+            "title": "07.1-test-post-todo",
+            "done": true,
+            "path": ".breathecode/exercises/07.1-test-post-todo",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "07.2-finish-post-todo",
+            "title": "07.2-finish-post-todo",
+            "done": true,
+            "path": ".breathecode/exercises/07.2-finish-post-todo",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "08-delete-todo",
+            "title": "08-delete-todo",
+            "done": true,
+            "path": ".breathecode/exercises/08-delete-todo",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "08.1-delete-live-test",
+            "title": "08.1-delete-live-test",
+            "done": true,
+            "path": ".breathecode/exercises/08.1-delete-live-test",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "08.2-finish-todos",
+            "title": "08.2-finish-todos",
             "done": false,
-            "path": ".breathecode/exercises/05-returning-json_copy",
+            "path": ".breathecode/exercises/08.2-finish-todos",
             "translations": [
                 "us"
             ]
