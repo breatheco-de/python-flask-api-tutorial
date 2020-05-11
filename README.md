@@ -1,5 +1,12 @@
 # Let's build a Todo List API using Flask
 
+
+This is an interactive tutorial that will teach you how to create an API using the Python Flask framework, please click here to start the tutorial:
+
+https://gitpod.io/#https://github.com/breatheco-de/python-flask-api-tutorial
+
+## About the project
+
 In this tutorial we are going to be building a REST API that exposes 3 endpoints to the internet:
 
 ```txt
@@ -42,8 +49,3 @@ And return the updated list of todos
 
 It's going to remove one todo based on a given position at the end of the url, and return the updated list of todos.
 
-# 💻 Installation
-
-Clone this repository or open it using Gitpod with the following link:
-
-https://gitpod.io/#https://github.com/breatheco-de/python-flask-api-tutorial
