@@ -1,0 +1,13 @@
+{
+    "grading": "incremental",
+    "language": "python3",
+	"title" : "Todo List API Interactive",
+	"slug" : "todo-list-api-interactive",
+	"status": "published",
+	"solution": "https://github.com/breatheco-de/todo-list-api-interactive/tree/solution",
+	"preview": "https://github.com/breatheco-de/todo-list-api-interactive/blob/master/.breathecode/assets/preview.gif?raw=true",
+	"duration" : 6,
+    "difficulty": "easy",
+	"description" : "Create a Todo list API Interactively",
+    "technologies": ["python", "terminal", "command-line", "APIs", "REST"]
+}
