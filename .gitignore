@@ -10,7 +10,8 @@
 !/.breathecode
 /.breathecode/**
 !/.breathecode/exercises
-!/.breathecode/exercises/.?bc.json
+!/.breathecode/exercises/bc.json
+!/.breathecode/exercises/.bc.json
 !/.breathecode/exercises/**
 !/.breathecode/assets
 !/.breathecode/assets/**
