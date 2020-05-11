@@ -3,7 +3,7 @@
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/breatheco-de/python-flask-api-tutorial/3ffb90ea974146f57a3bdfd59665b4c4d5d05197/.breathecode/assets/badge.svg"></a>
 
 <p>
-> By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/Interactive-Tutorials/graphs/contributors) at [4Geeks Academy](http://4geeksacademy.co/)
+    By <a href="https://twitter.com/alesanchezr">@alesanchezr</a> and <a href="https://github.com/breatheco-de/python-flask-api-tutorial/graphs/contributors">other contributors</a>
 
 ![last commit](https://img.shields.io/github/last-commit/breatheco-de/python-flask-api-tutorial)
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
