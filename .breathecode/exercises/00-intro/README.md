@@ -1,11 +1,11 @@
 # Welcome to Flask!
 
-In this tutorial we are going to be building a REST API that exposes 4 endpoints to the internet:
+In this tutorial we are going to be building a REST API that exposes 3 endpoints to the internet:
 
 ```txt
 GET /todos
 POST /todos
-DELETE /todos
+DELETE /todos/<int:position>
 ```
 
 ### GET /todos
@@ -38,6 +38,6 @@ It's going to add a new todo to the list, it will receive the following request 
 
 And return the updated list of todos
 
-### DELETE /todos/<position:int>
+### DELETE /todos/<int:position>
 
 It's going to remove one todo based on a given position at the end of the url, and return the updated list of todos.
