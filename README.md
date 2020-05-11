@@ -1,11 +1,18 @@
-# Let's build a Todo List API using Flask
+# Todo List API in Python Flask
 
+<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://raw.githubusercontent.com/breatheco-de/python-flask-api-tutorial/3ffb90ea974146f57a3bdfd59665b4c4d5d05197/.breathecode/assets/badge.svg"></a>
+
+> By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/Interactive-Tutorials/graphs/contributors) at [4Geeks Academy](http://4geeksacademy.co/)
+
+![last commit](https://img.shields.io/github/last-commit/breatheco-de/python-flask-api-tutorial)
+[![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
+[![build by developers](https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter)](https://twitter.com/alesanchezr)
 
 This is an interactive tutorial that will teach you how to create an API using the Python Flask framework, please click here to start the tutorial:
 
 https://gitpod.io/#https://github.com/breatheco-de/python-flask-api-tutorial
 
-## About the project
+## About the project we are going to build
 
 In this tutorial we are going to be building a REST API that exposes 3 endpoints to the internet:
 
