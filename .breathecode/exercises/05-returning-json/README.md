@@ -28,7 +28,7 @@ todos = [
 
 ## 📝Instructions
 
-1. Create a global variable todos, declare it globally, do not declare the variable inside any function, just adeclare the varible anywhere at the global scope. Make sure the variable contains at least one task item inside with the following structure:
+1. Create a global variable todos, declare it globally, do not declare the variable inside any function, declare the varible anywhere at the global scope. Make sure the variable contains at least one task item inside with the following structure:
 
 ```python
 { "label": "My first task", "done": False }
@@ -36,3 +36,4 @@ todos = [
 
 
 2. Change the return statement of your hello_world method to make it return the jsonify version of the global todos.
+
