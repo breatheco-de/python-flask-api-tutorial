@@ -34,5 +34,5 @@ todos = [
 { "label": "My first task", "done": False }
 ```
 
-3. Change the return statement of your `hello_world` method to make it return the jsonify version of the global todos.
+2. Change the return statement of your `hello_world` method to make it return the jsonify version of the global todos.
 
