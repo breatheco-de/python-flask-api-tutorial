@@ -10,7 +10,7 @@ def hello_world():
     some_data = { "name": "Bobby", "lastname": "Rixer" }
 
     # you can convert that variable into a json string like this
-    json_text = jsonify(some_data)
+    json_text = flask.jsonify(some_data)
 
     # and then you can return it on the response body like this
     return json_text
@@ -34,6 +34,5 @@ todos = [
 { "label": "My first task", "done": False }
 ```
 
-
-2. Change the return statement of your hello_world method to make it return the jsonify version of the global todos.
+3. Change the return statement of your `hello_world` method to make it return the jsonify version of the global todos.
 
