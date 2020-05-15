@@ -18,4 +18,10 @@ def hello_world():
 
 ## 📝Instructions
 
-Using that knowledge, make your server return the string `"<h1>Hello!</h1>"` when the URL `/todos` is typed on the browser.
+1. Using that knowledge, make your server return the string `"<h1>Hello!</h1>"` when the URL `/todos` is typed on the browser.
+2. Please make sure that this lines keep being the last two lines of your app.py
+
+```python
+if __name__ == '__main__':
+  app.run(host='0.0.0.0', port=3245, debug=True)
+```

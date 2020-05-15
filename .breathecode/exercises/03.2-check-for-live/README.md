@@ -4,8 +4,6 @@ It looks like your API is running live!
 
 You can check it out by clickin on the URL that was displayed on the command line once Flask started running like this:
 
-This one: {{ address }}:3245
-
 ![Check Flask Live](https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.breathecode/assets/live-api.gif?raw=true)
 
 Once you open it successfully your live API should say `Not Found` like this:
