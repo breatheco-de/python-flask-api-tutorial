@@ -2,6 +2,8 @@
 # configuration and readme
 !.gitignore
 !.gitpod.yml
+.theia
+.vscode
 !.gitpod.Dockerfile
 !bc.json
 !README.md
