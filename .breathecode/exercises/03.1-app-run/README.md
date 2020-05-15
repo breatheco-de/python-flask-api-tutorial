@@ -13,6 +13,8 @@ if __name__ == '__main__':
   app.run(host='0.0.0.0', port=3245, debug=True)
 ```
 
+> This two lines should always be at the very end of your file.
+
 Run your new server by typing on a **new separate terminal** the following command:
 
 ```bash
