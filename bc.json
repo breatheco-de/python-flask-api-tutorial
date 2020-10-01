@@ -52,6 +52,7 @@
             "done": false,
             "path": ".breathecode/exercises/01-hello-world",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -62,6 +63,7 @@
             "done": false,
             "path": ".breathecode/exercises/02-pipenv-installation",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -72,6 +74,7 @@
             "done": false,
             "path": ".breathecode/exercises/02.1-flask-installation",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -82,6 +85,7 @@
             "done": false,
             "path": ".breathecode/exercises/03-first-flask-app",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -92,6 +96,7 @@
             "done": false,
             "path": ".breathecode/exercises/03.1-app-run",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -102,6 +107,7 @@
             "done": false,
             "path": ".breathecode/exercises/03.2-check-for-live",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -112,6 +118,7 @@
             "done": false,
             "path": ".breathecode/exercises/03.3-your-first-route",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -122,6 +129,7 @@
             "done": false,
             "path": ".breathecode/exercises/04-runnig-flask",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
@@ -132,6 +140,7 @@
             "done": false,
             "path": ".breathecode/exercises/05-returning-json",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -142,6 +151,7 @@
             "done": false,
             "path": ".breathecode/exercises/06-check-for-live",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -152,6 +162,7 @@
             "done": false,
             "path": ".breathecode/exercises/07-post_todo",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
@@ -162,6 +173,7 @@
             "done": false,
             "path": ".breathecode/exercises/07.1-test-post-todo",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": true
