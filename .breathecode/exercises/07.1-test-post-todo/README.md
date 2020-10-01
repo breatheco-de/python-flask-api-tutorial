@@ -10,7 +10,7 @@ def add_new_todo():
     return 'Response for the POST todo'
 ```
 
-Use postman, postwoman or any other API Request Builder that you like to test your API, here is an example on how to do it with postwoman:
+Use postman, insomnia or any other API Request Builder that you like to test your API, here is an example on how to do it with postwoman:
 https://youtu.be/HEQ-pSgOVtY
 
 |  |  |
