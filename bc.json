@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://ee721f9b-4ec6-4fe1-a199-5552f56acdb0.ws-us02.gitpod.io",
+    "address": "https://c15fd239-e1b3-4720-b93e-d918d40cddeb.ws-us02.gitpod.io",
     "editor": "gitpod",
     "outputPath": "./.breathecode/dist",
     "publicPath": "/preview",
@@ -41,6 +41,7 @@
             "done": false,
             "path": ".breathecode/exercises/00-intro",
             "translations": [
+                "es",
                 "us"
             ],
             "graded": false
