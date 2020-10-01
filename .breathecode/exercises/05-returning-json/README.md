@@ -1,6 +1,6 @@
 ## `05` Returning JSON
 
-REST APIs have to return data in in JSON format, not HTML format.
+REST APIs have to return data in JSON format, not HTML format.
 
 You can use the [flask jsonify](https://flask.palletsprojects.com/en/1.1.x/api/#flask.json.jsonify) function to easily convert any of the basic data-types to JSON data like this:
 
