@@ -13,6 +13,5 @@
         "command-line",
         "APIs",
         "REST"
-    ],
-    "exercisesPath": "./.breathecode/exercises"
+    ]
 }
