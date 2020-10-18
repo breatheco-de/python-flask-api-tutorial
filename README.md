@@ -1,53 +1,27 @@
-# Todo List API in Python Flask
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/breatheco-de/python-flask-api-tutorial)
 
-<a href="https://www.breatheco.de"><img height="280" align="right" src="https://raw.githubusercontent.com/breatheco-de/python-flask-api-tutorial/3ffb90ea974146f57a3bdfd59665b4c4d5d05197/.breathecode/assets/badge.svg"></a>
+# presentation :
+ce code permet l'automatisation de prise de relevés d'un drone (construit au préalable) avec divers capteur
+il permet de configurer des plans de vol quotidiens 
+et à plusieur fonctions :
 
-This is an interactive tutorial that will teach you how to create an API using the Python Flask framework using Python and Pipenv. Please click here to start the tutorial:
+dans la partie relevées :
+- capteur de gaz
+- capteur d'humidité
+(et autres seront ajouter)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/breatheco-de/python-flask-api-tutorial)
+dans la partie logistique :
+- capteur ultrasonic (pour éviter les collision)
 
+au niveau de son fonctionement :
 
-## About the project we are going to build
+- le drone décolle tout les jours à la même heure
+selont un plans de vol bien précis
 
-In this tutorial we are going to be building a REST API that exposes 3 endpoints to the internet:
+- le drone fait ses relevées et stock les donnés
+accumulés dans une clé usb
 
-```txt
-GET /todos
-POST /todos
-DELETE /todos/<int:position>
-```
+- le drone ratérit il n'y à plus qu'à prendre la clé usb
+et de récolter les donnés
 
-### GET /todos
-
-Will return the list of all todos like this:
-
-```javascript
-[
-    {
-        "done": true,
-        "label": "Sample Todo 1"
-    },
-    {
-        "done": true,
-        "label": "Sample Todo 2"
-    }
-]
-```
-
-### POST /todos
-
-It's going to add a new todo to the list, it will receive the following request body:
-
-```javascript
-{
-    "done": true,
-    "label": "Sample Todo 1"
-}
-```
-
-And return the updated list of todos
-
-### DELETE /todos/<int:position>
-
-It's going to remove one todo based on a given position at the end of the url, and return the updated list of todos.
-
+D'autres fonctions seront ajoutés par la suite.
