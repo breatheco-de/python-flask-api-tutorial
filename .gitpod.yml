@@ -1,17 +1,5 @@
-image:
-  file: .gitpod.Dockerfile
+image: gitpod/workspace-full
 
-ports:
-    - port: 3000
-      onOpen: open-preview
 tasks:
-    - command: >
-        bc run -l python3 -g incremental;
-github:
-    prebuilds:
-        # enable for the master/default branch (defaults to true)
-        master: true
-        # enable for pull requests coming from this repo (defaults to true)
-        pullRequests: false
-        # add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
-        addComment: false
+  - init: 'echo "TODO: Replace with init/build command"'
+    command: 'echo "TODO: Replace with command to start project"'

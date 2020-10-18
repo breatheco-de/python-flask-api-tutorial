@@ -1,53 +1,30 @@
-# Todo List API in Python Flask
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/breatheco-de/python-flask-api-tutorial)
 
-<a href="https://www.breatheco.de"><img height="280" align="right" src="https://raw.githubusercontent.com/breatheco-de/python-flask-api-tutorial/3ffb90ea974146f57a3bdfd59665b4c4d5d05197/.breathecode/assets/badge.svg"></a>
+par : Paul Schuler<div>
+le ; dim. 18 Oct
 
-This is an interactive tutorial that will teach you how to create an API using the Python Flask framework using Python and Pipenv. Please click here to start the tutorial:
+<strong>PRESENTATION :</strong>
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/breatheco-de/python-flask-api-tutorial)
+ce code permet d'automatiser la prise 
+de relevés en tout genres par un drone
+équipé de divers capteurs 
+(construit au préalable)
 
+Le drone sera équipé de plusieur
+fonctions qui seront ajouté au futur;
 
-## About the project we are going to build
+<strong>Fonctions déja équipées :</strong>
 
-In this tutorial we are going to be building a REST API that exposes 3 endpoints to the internet:
+- commandes de bases du type : avancer ; reculer ; voler et la prise des relevés
 
-```txt
-GET /todos
-POST /todos
-DELETE /todos/<int:position>
-```
+- algorythme permettant de rendre 
+quotidiens la prise de relevés
 
-### GET /todos
+<strong>Fonctions futur :</strong>
 
-Will return the list of all todos like this:
+- IA permettant de s'adapter au terrain en créant une modélisation 3D
+pour éviter les chutes
 
-```javascript
-[
-    {
-        "done": true,
-        "label": "Sample Todo 1"
-    },
-    {
-        "done": true,
-        "label": "Sample Todo 2"
-    }
-]
-```
+- d'autre capteurs
 
-### POST /todos
-
-It's going to add a new todo to the list, it will receive the following request body:
-
-```javascript
-{
-    "done": true,
-    "label": "Sample Todo 1"
-}
-```
-
-And return the updated list of todos
-
-### DELETE /todos/<int:position>
-
-It's going to remove one todo based on a given position at the end of the url, and return the updated list of todos.
-
+- un socle de rechargement et de transfère de donnés
