@@ -3,6 +3,7 @@
     "slug": "python-flask-api-tutorial",
     "status": "published",
     "solution": "https://github.com/breatheco-de/todo-list-api-interactive/tree/solution",
+    "repository": "https://github.com/breatheco-de/python-flask-api-tutorial",
     "preview": "https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.breathecode/assets/preview.png?raw=true",
     "duration": 6,
     "difficulty": "easy",
