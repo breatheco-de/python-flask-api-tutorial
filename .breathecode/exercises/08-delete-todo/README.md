@@ -1,6 +1,6 @@
 ## `08` Delete todo
 
-Deleting a todo is basically the oposity of adding a new todo, you should use 90% of the code from the POST /todos feature.
+Deleting a todo is basically the opposite of adding a new todo, you should use 90% of the code from the POST /todos feature.
 
 The main difference is that `DELETE /todos/<position:int>` will receive the position to delete in the URL of the request.
 
@@ -11,7 +11,7 @@ def delete_todo(position):
     return 'something'
 ```
 
-When you use the symbols `<` and `>` Flask will return whatever the client specified on that part the URL as a variable, for example:
+When you use the symbols `<` and `>` Flask will return whatever the client specified on that part of the URL as a variable. For example:
 
 ```txt
 The request DELETE /todos/1 will call the function delete_todo with the variable position == 1
