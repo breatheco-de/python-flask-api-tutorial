@@ -1,10 +1,10 @@
 ## `02` Initialize Pipenv
 
-It is possible to have several python projects with different version of python, that's why you need to specify which python version you want to use for every project during setup.
+It is possible to have several python projects with different versions of python, that's why you need to specify which python version you want to use for every project during setup.
 
 In this case, we don't care which version of python we use as long as it's more than 3.0.
 
-Every python project should be wrapped in a "virtual environment" to ensure that each of them have their own Python version, modules and libraries, nothing gets installed globally in your computer, only inside the specified environment under the `.venv` folder.
+Every python project should be wrapped in a "virtual environment" to ensure that each of them have their own Python version, modules and libraries. Make sure nothing gets installed globally in your computer, only install inside the specified environment under the `.venv` folder.
 
 ## 📝Instructions
 

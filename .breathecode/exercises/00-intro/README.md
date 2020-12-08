@@ -8,9 +8,10 @@ POST /todos
 DELETE /todos/<int:position>
 ```
 
-### GET /todos
 
-Will return the list of all todos like this:
+
+## **GET /todos** 
+It will return the list of all todos like this:
 
 ```javascript
 [
@@ -25,19 +26,36 @@ Will return the list of all todos like this:
 ]
 ```
 
-### POST /todos
+## **POST /todos**
 
-It's going to add a new todo to the list, it will receive the following request body:
+It's going to add a new todo to the list by sending the following request body:
 
 ```javascript
 {
     "done": true,
-    "label": "Sample Todo 1"
+    "label": "Sample Todo 3"
 }
 ```
 
-And return the updated list of todos
+And then, it returns the updated list of todos:
 
-### DELETE /todos/<int:position>
+```javascript
+[
+    {
+        "done": true,
+        "label": "Sample Todo 1"
+    },
+    {
+        "done": true,
+        "label": "Sample Todo 2"
+    },
+    {
+        "done": true,
+        "label": "Sample Todo 3"
+    }
+]
+```
+
+## **DELETE /todos/<int:position>**
 
 It's going to remove one todo based on a given position at the end of the url, and return the updated list of todos.

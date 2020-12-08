@@ -9,7 +9,7 @@ def delete_todo(position):
     return 'something'
 ```
 
-Use postman, insomnia or any other API Request Builder that you like to test your API, here is an example on how to do it with postwoman:
+Use postman, insomnia or any other API Request Builder that you like to test your API, here is an example on how to do it with postman:
 https://youtu.be/HEQ-pSgOVtY
 
 |  |  |
