@@ -5,18 +5,18 @@
 .theia
 .vscode
 !.gitpod.Dockerfile
-!bc.json
+!learn.json
 !README.md
 
-# breathecode exercises
-!/.breathecode
-/.breathecode/**
-!/.breathecode/bc.json
-!/.breathecode/.bc.json
-!/.breathecode/exercises
-!/.breathecode/exercises/**
-!/.breathecode/assets
-!/.breathecode/assets/**
+# learn exercises
+!/.learn
+/.learn/**
+!/.learn/bc.json
+!/.learn/.bc.json
+!/.learn/exercises
+!/.learn/exercises/**
+!/.learn/assets
+!/.learn/assets/**
 
 # python garbage
 *.pyc
