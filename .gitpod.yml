@@ -6,7 +6,7 @@ ports:
       onOpen: open-preview
 tasks:
     - command: >
-        bc run -l python3 -g incremental;
+        learnpack start -g incremental
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)
