@@ -10,5 +10,5 @@ def isOpen(ip,port):
       return False
 
 @pytest.mark.it("Make sure your app server is running, did you run the app.py?")
-def test_import_hello(config):
+def test_import_hello():
   assert isOpen('0.0.0.0', 3245)
