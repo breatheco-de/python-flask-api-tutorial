@@ -19,6 +19,9 @@
             "reset",
             "build",
             "test",
+            "reset",
+            "build",
+            "test",
             "reset"
         ]
     },
@@ -132,7 +135,7 @@
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 3,
@@ -157,12 +160,17 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/02.1-flask-installation/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/02.1-flask-installation/test.py",
                     "name": "test.py",
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 4,
@@ -187,12 +195,17 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/03-first-flask-app/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/03-first-flask-app/test.py",
                     "name": "test.py",
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 5,
@@ -222,7 +235,7 @@
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         },
         {
             "position": 6,
