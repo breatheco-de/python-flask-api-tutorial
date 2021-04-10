@@ -6,7 +6,7 @@ This is an interactive tutorial that will teach you how to create an API using t
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/breatheco-de/python-flask-api-tutorial)
 
-
+Just a test
 ## About the project we are going to build
 
 In this tutorial we are going to be building a REST API that exposes 3 endpoints to the internet:
