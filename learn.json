@@ -22,6 +22,9 @@
             "reset",
             "build",
             "test",
+            "reset",
+            "build",
+            "test",
             "reset"
         ]
     },
@@ -205,7 +208,7 @@
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         },
         {
             "position": 5,
@@ -385,6 +388,11 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/06-check-for-live/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/06-check-for-live/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -420,7 +428,7 @@
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         },
         {
             "position": 12,
@@ -442,6 +450,11 @@
                 {
                     "path": ".learn/exercises/07.1-test-post-todo/README.md",
                     "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/07.1-test-post-todo/__pycache__",
+                    "name": "__pycache__",
                     "hidden": true
                 },
                 {
@@ -475,6 +488,11 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/07.2-finish-post-todo/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/07.2-finish-post-todo/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -502,6 +520,11 @@
                 {
                     "path": ".learn/exercises/08-delete-todo/README.md",
                     "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/08-delete-todo/__pycache__",
+                    "name": "__pycache__",
                     "hidden": true
                 },
                 {
@@ -535,6 +558,11 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/08.1-delete-live-test/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/08.1-delete-live-test/test.py",
                     "name": "test.py",
                     "hidden": true
@@ -565,12 +593,17 @@
                     "hidden": true
                 },
                 {
+                    "path": ".learn/exercises/08.2-finish-todos/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
                     "path": ".learn/exercises/08.2-finish-todos/test.py",
                     "name": "test.py",
                     "hidden": true
                 }
             ],
-            "done": false
+            "done": true
         }
     ]
 }
