@@ -1,4 +1,38 @@
 {
+    "config": {
+        "port": 3000,
+        "address": "https://pink-wombat-1gbaduep.ws-us03.gitpod.io",
+        "editor": {
+            "mode": "gitpod",
+            "version": "1.0.61"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "grading": "incremental",
+        "exercisesPath": ".learn/exercises",
+        "disableGrading": false,
+        "actions": [
+            "build",
+            "test",
+            "reset",
+            "build",
+            "test",
+            "reset",
+            "build",
+            "test",
+            "reset"
+        ]
+    },
+    "entries": {
+        "html": "index.html",
+        "vanillajs": "index.js",
+        "react": "app.jsx",
+        "node": "app.js",
+        "python3": "app.py",
+        "java": "app.java"
+    },
     "title": "Todo List API with Python Flask Interactive",
     "slug": "python-flask-api-tutorial",
     "status": "published",
@@ -15,5 +49,528 @@
         "command-line",
         "APIs",
         "REST"
+    ],
+    "session": 1213661512824428800,
+    "exercises": [
+        {
+            "position": 0,
+            "path": ".learn/exercises/00-intro",
+            "slug": "00-intro",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "markdown",
+            "title": "00-intro",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/00-intro/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/00-intro/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": ".learn/exercises/01-hello-world",
+            "slug": "01-hello-world",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "markdown",
+            "title": "01-hello-world",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/01-hello-world/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/01-hello-world/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": ".learn/exercises/02-pipenv-installation",
+            "slug": "02-pipenv-installation",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "02-pipenv-installation",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/02-pipenv-installation/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/02-pipenv-installation/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/02-pipenv-installation/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/02-pipenv-installation/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 3,
+            "path": ".learn/exercises/02.1-flask-installation",
+            "slug": "02.1-flask-installation",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "02.1-flask-installation",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/02.1-flask-installation/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/02.1-flask-installation/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/02.1-flask-installation/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/02.1-flask-installation/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 4,
+            "path": ".learn/exercises/03-first-flask-app",
+            "slug": "03-first-flask-app",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "03-first-flask-app",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/03-first-flask-app/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03-first-flask-app/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03-first-flask-app/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03-first-flask-app/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 5,
+            "path": ".learn/exercises/03.1-app-run",
+            "slug": "03.1-app-run",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "03.1-app-run",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/03.1-app-run/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03.1-app-run/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03.1-app-run/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03.1-app-run/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 6,
+            "path": ".learn/exercises/03.2-check-for-live",
+            "slug": "03.2-check-for-live",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "markdown",
+            "title": "03.2-check-for-live",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/03.2-check-for-live/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03.2-check-for-live/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 7,
+            "path": ".learn/exercises/03.3-your-first-route",
+            "slug": "03.3-your-first-route",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "03.3-your-first-route",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/03.3-your-first-route/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03.3-your-first-route/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03.3-your-first-route/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03.3-your-first-route/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 8,
+            "path": ".learn/exercises/04-runnig-flask",
+            "slug": "04-runnig-flask",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "markdown",
+            "title": "04-runnig-flask",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/04-runnig-flask/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/04-runnig-flask/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 9,
+            "path": ".learn/exercises/05-returning-json",
+            "slug": "05-returning-json",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "05-returning-json",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/05-returning-json/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/05-returning-json/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/05-returning-json/__pycache__",
+                    "name": "__pycache__",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/05-returning-json/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 10,
+            "path": ".learn/exercises/06-check-for-live",
+            "slug": "06-check-for-live",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "06-check-for-live",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/06-check-for-live/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/06-check-for-live/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/06-check-for-live/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 11,
+            "path": ".learn/exercises/07-post_todo",
+            "slug": "07-post_todo",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "07-post_todo",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/07-post_todo/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/07-post_todo/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/07-post_todo/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 12,
+            "path": ".learn/exercises/07.1-test-post-todo",
+            "slug": "07.1-test-post-todo",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "07.1-test-post-todo",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/07.1-test-post-todo/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/07.1-test-post-todo/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/07.1-test-post-todo/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 13,
+            "path": ".learn/exercises/07.2-finish-post-todo",
+            "slug": "07.2-finish-post-todo",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "07.2-finish-post-todo",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/07.2-finish-post-todo/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/07.2-finish-post-todo/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/07.2-finish-post-todo/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 14,
+            "path": ".learn/exercises/08-delete-todo",
+            "slug": "08-delete-todo",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "08-delete-todo",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/08-delete-todo/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/08-delete-todo/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/08-delete-todo/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 15,
+            "path": ".learn/exercises/08.1-delete-live-test",
+            "slug": "08.1-delete-live-test",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "08.1-delete-live-test",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/08.1-delete-live-test/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/08.1-delete-live-test/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/08.1-delete-live-test/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": true
+        },
+        {
+            "position": 16,
+            "path": ".learn/exercises/08.2-finish-todos",
+            "slug": "08.2-finish-todos",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "python3",
+            "title": "08.2-finish-todos",
+            "graded": true,
+            "files": [
+                {
+                    "path": ".learn/exercises/08.2-finish-todos/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/08.2-finish-todos/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/08.2-finish-todos/test.py",
+                    "name": "test.py",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
     ]
 }
