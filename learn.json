@@ -15,5 +15,10 @@
         "command-line",
         "APIs",
         "REST"
-    ]
+    ],
+    "config": {
+        "editor": {
+            "version": "1.0.68"
+        }
+    }
 }
