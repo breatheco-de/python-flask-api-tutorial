@@ -1,7 +1,7 @@
 {
     "config": {
         "port": 3000,
-        "address": "https://ivory-wallaby-2ctecm24.ws-eu08.gitpod.io",
+        "address": "https://coral-woodpecker-a0sgwfb0.ws-eu15.gitpod.io",
         "editor": {
             "mode": "gitpod",
             "version": "1.0.61"
@@ -14,6 +14,12 @@
         "exercisesPath": ".learn/exercises",
         "disableGrading": false,
         "actions": [
+            "build",
+            "test",
+            "reset",
+            "build",
+            "test",
+            "reset",
             "build",
             "test",
             "reset"
