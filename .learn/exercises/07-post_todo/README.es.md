@@ -1,14 +1,15 @@
 ## `07` POST /todos (añade un nuevo task)
 
-Now that the method to GET `/todos` is done, we have to think about the rest of the endpoints in our API:
+Ahora que ya está hecho el mñetodo GET `/todos`, debemos pensar en el resto de los endpoints de nuestra API:
 
 ```txt
 GET /todos
 POST /todos
 DELETE /todos
 ```
+Para poder contruir el `POST /todos` debemos hacer algo similar a lo wue hicimod en el primer endpoint
+In order to build the `POST /todos`, recuerda que cada endpoint en una Flask API está representada por una función y decorador como este:
 
-In order to build the `POST /todos` have do something similar that we did on the first enpoing, remember that each endpoint in a Flask API its represented by a function and a decorator like this:
 
 ```python
 @app.route('/blabla', methods=['GET'])
@@ -16,6 +17,6 @@ def hello_world():
     return 'Hello, World!'
 ```
 
-Only in this case we are not going to be expecting a GET request.
+Pero en este caso no esperaremos una solicitud `GET`.
 
-Also, we are expecting to receive the TODO that the client wants to add inside of the Request Body.
+También, esperamos recibir el TODO (tarea) que el cliente quiere añadir dentro del cuerpo de la solicitud (Request Body).

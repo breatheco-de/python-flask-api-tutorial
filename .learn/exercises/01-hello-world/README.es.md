@@ -2,7 +2,7 @@
 
 En este tutorial construiremos una REST API utilizando el lenguaje de programación Python y la librería de Flask [Flask library](https://flask.palletsprojects.com/en/1.1.x/) (ideal para crear API's).
 
-¡Pero vamos a hacerlo correctamente! SIguiendo todas las buenas prácticas; Es por ello que debemos instalar y aprender un par de cosas antes.
+¡Pero vamos a hacerlo correctamente! Siguiendo todas las buenas prácticas; Es por ello que debemos instalar y aprender un par de cosas antes.
 
 ## 📦 Requerimientos
 

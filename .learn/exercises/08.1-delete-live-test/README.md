@@ -8,8 +8,7 @@ def delete_todo(position):
     print("This is the position to delete: ",position)
     return 'something'
 ```
-
-Use postman, insomnia or any other API Request Builder that you like to test your API, here is an example on how to do it with postman:
+Use Postman, Insomnia or any other API Request Builder that you like to test your API, here is an example on how to do it with postman:
 https://youtu.be/HEQ-pSgOVtY
 
 |  |  |
