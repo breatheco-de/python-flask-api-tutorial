@@ -11,6 +11,7 @@ DELETE /todos/<int:position>
 
 
 ## **GET /todos** 
+
 It will return the list of all todos like this:
 
 ```javascript
