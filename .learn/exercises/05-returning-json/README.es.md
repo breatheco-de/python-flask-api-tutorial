@@ -1,4 +1,4 @@
-## `05` Retornando JSON
+# `05` Retornando JSON
 
 Las REST APIs tienen que retornar datos en formato JSON, no en formato HTML.
 
@@ -6,13 +6,13 @@ Puedes usar la función [flask jsonify](https://flask.palletsprojects.com/en/1.1
 
 ```python
 def hello_world():
-    # supongamos que tienes cierta información (some_data) en una variable json
+    # supongamos que tienes some_data (cierta información) en una variable json
     some_data = { "name": "Bobby", "lastname": "Rixer" }
 
     # puedes convertir esa variable en un string json así
     json_text = flask.jsonify(some_data)
 
-    # y luego puedes retorarla (return) en el response body así:
+    # y luego puedes retornarla (return) en el response body así:
     return json_text
 ```
 
@@ -24,10 +24,9 @@ todos = [
     { "label": "My first task", "done": False },
     { "label": "My second task", "done": False }
 ]
-
 ```
 
-## 📝Instrucciones
+## 📝 Instrucciones:
 
 1. Crea una variable global todos, declárala globalmente. No la declares dentro de una función, declárala en cualquier lado pero a nivel global. Asegúrate de que la variable contenga por lo menos una tarea (task) con la siguiente estructura:
 

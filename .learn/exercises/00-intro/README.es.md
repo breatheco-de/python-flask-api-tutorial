@@ -9,7 +9,7 @@ POST /todos
 DELETE /todos/<int:position>
 ```
 
-### GET /todos
+## GET /todos
 
 Retornaremos toda la lista de todos así:
 
@@ -26,7 +26,7 @@ Retornaremos toda la lista de todos así:
 ]
 ```
 
-### POST /todos 
+## POST /todos 
 
 Añadirá un nuevo todo a la lista. Recibirá el siguiente request body:
 

@@ -1,4 +1,4 @@
-## `07` POST /todos (add a new task)
+# `07` POST /todos (add a new task)
 
 Now that the method to GET `/todos` is done, we have to think about the rest of the endpoints in our API:
 
@@ -27,9 +27,9 @@ from flask import request
 print(request.data)
 ```
 
-## 📝 Instructions
+## 📝 Instructions:
 
-Add the folowing endpoint to your app.py and test it:
+1. Add the folowing endpoint to your app.py and test it:
 
 ```python
 @app.route('/todos', methods=['POST'])
@@ -39,7 +39,7 @@ def add_new_todo():
     return 'Response for the POST todo'
 ```
 
-Remember to import request at the top of the file:
+2. Remember to import request at the top of the file:
 
 ```python
 from flask import request

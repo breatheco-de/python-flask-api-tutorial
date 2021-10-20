@@ -1,4 +1,4 @@
-## `03.2` Verifica la URL live
+# `03.2` Verifica la URL live
 
 ¡Al parecer tu API se está ejecutando!
 
@@ -10,5 +10,5 @@ Una vez que hayas abierto exitosamente to API live, debería decir `Not Found`, 
 
 ![Not found API](https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.breathecode/assets/not-found.png?raw=true)
 
-Dice "Not found" en este momento porque no hemos añadido ningún enpoint aún ¡Ahora tenemos que comenzar a añadir endpoints!
+Dice `Not found` en este momento porque no hemos añadido ningún enpoint aún ¡Ahora tenemos que comenzar a añadir endpoints!
 

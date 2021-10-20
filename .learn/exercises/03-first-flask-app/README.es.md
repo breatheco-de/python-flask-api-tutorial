@@ -1,4 +1,4 @@
-## `03` Primera App Flask
+# `03` Primera App Flask
 
 Flask es una app que se comporta como un servidor web, es decir que expone (publica) un grupo de URLs en internet (como una api o un sitio web).
 
@@ -20,9 +20,12 @@ from flask import Flask
 app = Flask(__name__)
 ```
 
-## 📝Instrucciones
+## 📝Instrucciones:
 
 1. En la raíz del proyecto crea una carpeta llamada `src`.
-2. Dentro de ella, crea un archivo `src/app.py` y añade el código para crear una nueva app Flask especificada en las intrucciones anteriores.
+
+2. Dentro de ella, crea un archivo `src/app.py`. 
+
+3. Añade el código para crear una nueva app Flask especificada en las intrucciones anteriores.
 
  

@@ -1,4 +1,4 @@
-## `08.1` Prueba tu endpoint
+# `08.1` Prueba tu endpoint
 
 Hasta ahora esto es lo que tienes sobre el endpoint  `DELETE /todos/<int:position>`, tomate tu tiempo para analizar cada línea:
 
@@ -9,8 +9,7 @@ def delete_todo(position):
     return 'something'
 ```
 
-Usa postman, insomnia o cualquier otro API Request Builder para probar tu API, aquí hay un ejemplo de como hacerlo con postwoman:
-https://youtu.be/HEQ-pSgOVtY
+Usa postman, insomnia o cualquier otro API Request Builder para probar tu API, aquí hay un ejemplo de como hacerlo con (postwoman)[https://youtu.be/HEQ-pSgOVtY]
 
 |  |  |
 | ------ | -------- |

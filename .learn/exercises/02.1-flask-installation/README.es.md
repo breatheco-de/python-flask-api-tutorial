@@ -1,8 +1,8 @@
-## `02.1` Instala Flask
+# `02.1` Instala Flask
 
 Ahora tenemos que instalar la dependencia de nuestro primer paquete para este proyecto: [Flask](https://flask.palletsprojects.com/en/1.1.x/).
 
-## 📝Instrucciones
+## 📝Instrucciones:
 
 Ejecuta el siguiente comando en tu terminal para instalar el paquete de Flask:
 
@@ -10,7 +10,7 @@ Ejecuta el siguiente comando en tu terminal para instalar el paquete de Flask:
 $ pipenv install flask
 ```
 
-Resultado esperado:
+## Resultado esperado:
 
 ![Expected console ouput](https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.learn/assets/install-flask.png?raw=true)
 

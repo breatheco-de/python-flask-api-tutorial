@@ -1,4 +1,4 @@
-## `04` ¡¡Prueba tu API!!
+# `04` ¡¡Prueba tu API
 
 ¡Felicitaciones! Tu primer endpoint está LIVE ahora! Probablemente en:
 

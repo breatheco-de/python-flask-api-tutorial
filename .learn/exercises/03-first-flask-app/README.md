@@ -19,8 +19,10 @@ from flask import Flask
 app = Flask(__name__)
 ```
 
-## 📝Instructions
+## 📝Instructions:
 
 1. On the root of your project create a `src` folder.  
+
 2. Inside of it, create a file `src/app.py`. 
+
 3. As instructed above, add the code to create a new flask app.

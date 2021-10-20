@@ -7,17 +7,18 @@ En este tutorial construiremos una REST API utilizando el lenguaje de programaci
 ## 📦 Requerimientos
 
 1. Python 3+
+
 2. Pipenv
 
 Utilizaremos [Pipenv package manager](https://pipenv-fork.readthedocs.io/en/latest/) en estos ejercicios, por favor instala [Pipenv in your computer](https://github.com/pypa/pipenv#installation) si es que aún no lo has hecho.
 
 Si estásen Gitpod, no tienes que instalar nada, Pipenv y Python 3 ya están instalados.
 
-# 📝 Instrucciones
+## 📝 Instrucciones:
 
-### 0) Abre una nueva terminal (deja esta abierta)
+1. Abre una nueva terminal (deja esta abierta)
 
-### 1) Asegúrate de tener la versión 3 de Python:
+2. Asegúrate de tener la versión 3 de Python:
 
 ```bash
 $ python --version
@@ -29,7 +30,7 @@ $ python3 --version
 
 Nota: Si no tienes la versión 3 de Python, instalála,  [🔥 te recomendamos usar Pyenv](https://github.com/pyenv/pyenv) para instalar Python.
 
-### 2) Asegúrate de tener pipenv instalado:
+3. Asegúrate de tener `pipenv` instalado:
 
 En vez de usar Pip y virtual env, usaremos Pipenv: Una combinación de ambas tecnologías que harán tu vida mucho más fácil.
 

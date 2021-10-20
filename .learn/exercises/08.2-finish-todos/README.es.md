@@ -1,6 +1,6 @@
-## `08.2` Termina el  delete todo
+# `08.2` Termina el  delete todo
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 Termina el  `DELETE /todos/<int:position>` completando los siguientes pasos:
 
@@ -8,4 +8,4 @@ Termina el  `DELETE /todos/<int:position>` completando los siguientes pasos:
 
 2. Elimina la tarea (task) de la lista de `todos`. Puedes usar cualquier método de Python que permita eliminar items de lista  por posición.
 
-3. Retorna el jsonify de la lista de todos actualizado. 
+3. Retorna el jsonify de la lista de `todos` actualizado. 
