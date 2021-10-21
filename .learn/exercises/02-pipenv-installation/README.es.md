@@ -6,7 +6,7 @@ En este caso, no importa que versión de Python usemos mientras sea mayor a 3.0.
 
 Cada proyecto de python debe estar envuelto en un "ambiente virtual" para asegurarse de que cada uno de ellos tenga su propia versión de Python, módulos y librerías, nada se instala globalmente en tu computador, sólo se instala dentro del entorno en el que se encuentra en la carpeta `.venv`.
 
-## 📝Instrucciones:
+## 📝 Instrucciones:
 
 1. Ejecuta el siguiente comando para crear un nuevo entorno virtual con Python 3:
 
@@ -14,7 +14,7 @@ Cada proyecto de python debe estar envuelto en un "ambiente virtual" para asegur
 $ pipenv --three
 ```
 
-Deberías ver un  **PipFile** en la raíz de tu proyecto y dentro debería tener **[requires]** para la versión de Python 3+ similar a este (pero quizás con una diferente versión de Python 3)
+Deberías ver un  **PipFile** en la raíz de tu proyecto y dentro debería tener **[requires]** en la versión de Python 3+ similar a este (pero quizás con una diferente versión de Python 3).
 
 ![Pipfile preview](https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.learn/assets/pipfile.png?raw=true)
 

@@ -18,8 +18,7 @@ To create our first server, we need to add the following two lines to any python
 from flask import Flask
 app = Flask(__name__)
 ```
-
-## 📝Instructions:
+## 📝 Instructions:
 
 1. On the root of your project create a `src` folder.  
 

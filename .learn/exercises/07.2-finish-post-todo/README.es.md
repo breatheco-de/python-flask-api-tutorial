@@ -19,6 +19,6 @@ decoded_object = json.loads(original_string)
 
 1. Usa la función json.loads para decodificar el `request.data`
 
-2. Añade el objecto decodificado a la lista de todos.
+2. Añade el objecto decodificado a la lista de `todos`.
 
-3. Retorna la lista jsonify de los todos actualizados.
+3. Retorna la lista jsonify de los `todos` actualizados.

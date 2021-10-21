@@ -18,7 +18,6 @@ def hello_world():
 
 + The third line returns the text: "Hello World" to the requesting client or browser.
 
-
 ## 📝Instructions:
 
 1. Using that knowledge, make your server return the string `"<h1>Hello!</h1>"` when the URL `/todos` is typed on the browser.

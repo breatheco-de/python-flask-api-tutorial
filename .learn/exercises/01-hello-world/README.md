@@ -8,9 +8,7 @@ But we are going to do it the right way! Following all the good practices, we ha
 
 1. Python 3+
 
-2. Pipenv
-
-We are going to be using the [Pipenv package manager](https://pipenv-fork.readthedocs.io/en/latest/) during these exercises, please install [Pipenv in your computer](https://github.com/pypa/pipenv#installation) if you don't have it already.
+2. Pipenv: we are going to be using the [Pipenv package manager](https://pipenv-fork.readthedocs.io/en/latest/) during these exercises, please install [Pipenv in your computer](https://github.com/pypa/pipenv#installation) if you don't have it already.
 
 If you are building this project using Gitpod, you don't have to install anything. Pipenv and Python 3 already come pre-installed.
 
@@ -28,7 +26,8 @@ $ python --version
 $ python3 --version
 ```
 
-Note: If you don't have python version 3 you should go ahead and install it, we [🔥 strongy recommend using Pyenv](https://github.com/pyenv/pyenv) to install python.
+
+👉 Nota: if you don't have python version 3 you should go ahead and install it, we [🔥 strongy recommend using Pyenv](https://github.com/pyenv/pyenv) to install python.
 
 3. Make sure you have pipenv installed:
 

@@ -19,15 +19,16 @@ def hello_world():
 
 Pero en este caso no esperaremos una solicitud `GET`.
 
-También, esperamos recibir el TODO (tarea) que el cliente quiere añadir dentro del cuerpo de la solicitud (Request Body), solo que en este caso, no esperaremos una solicitud (request) GET.
+También, esperamos recibir el `todo` (tarea) que el cliente quiere añadir dentro del `Request Body` (cuerpo de la solicitud), solo que en este caso, no esperaremos una `request`(solicitud) `GET`.
 
-Esperamos recibir el TODO que el cliente desea añadir dentro del request body.
+Esperamos recibir el `todo` que el cliente desea añadir dentro del `request body`.
 
 
 ```python
 from flask import request
 
-# # el request body o cuerpo de la solicitud ya fue decodifido por json y se encuentra en la variable request.data  
+# el request body o cuerpo de la solicitud ya fue decodificado por json y se encuentra en la variable request.data  
+
 print(request.data)
 ```
 

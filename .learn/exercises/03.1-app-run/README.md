@@ -4,7 +4,7 @@ After creating our app, we need to run and start the application.
 
 When the application runs it will take over your command line, you will not be able to type on it anymore because a server application (like flask) never stops running, it keeps waiting for "requests" forever.
 
-## 📝Instructions:
+## 📝 Instructions:
 
 1. Add the following lines to the end of your `src/app.py` file:
 

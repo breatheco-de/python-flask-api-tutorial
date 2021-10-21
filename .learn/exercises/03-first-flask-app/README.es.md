@@ -19,13 +19,12 @@ Para crear nuestro primer servidor debemos añadir las siguientes dos líneas en
 from flask import Flask
 app = Flask(__name__)
 ```
-
-## 📝Instrucciones:
+## 📝 Instrucciones:
 
 1. En la raíz del proyecto crea una carpeta llamada `src`.
 
 2. Dentro de ella, crea un archivo `src/app.py`. 
 
-3. Añade el código para crear una nueva app Flask especificada en las intrucciones anteriores.
+3. Añade el código necesario para crear una nueva app Flask especificada en las intrucciones anteriores.
 
  

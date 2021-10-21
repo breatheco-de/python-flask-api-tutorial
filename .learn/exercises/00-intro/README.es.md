@@ -39,7 +39,7 @@ Añadirá un nuevo todo a la lista. Recibirá el siguiente request body:
 
 Y retornará la lista actualizada de los todos:
 
-### DELETE /todos/<int:position>
+## DELETE /todos/<int:position>
 
 Eliminará un todo basándose en la posición dada al final de la url, y retorna la lista actualizada de todos.
 

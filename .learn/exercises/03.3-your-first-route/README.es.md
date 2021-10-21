@@ -17,7 +17,6 @@ def hello_world():
 + La segunda línea define una función que será llamada por Flask cuando ese endpoint sea llamado por el usuario (cuando el usuario use `/hello`).
 
 + LA tercera línea retorna el texto: `Hello World` al cliente o navegador que lo solicite.
- 
 
 ## 📝Instrucciones:
 

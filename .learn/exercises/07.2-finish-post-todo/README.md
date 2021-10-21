@@ -2,11 +2,11 @@
 
 Now... if we want to finish the post, we have to do two specific actions:
 
-+ Decode the `request.data` to convert it into a real python dictionary.
++ First decode the `request.data` to convert it into a real python dictionary.
 
-+ Add the dictionary into the list of todos.
++ Add the dictionary into the list of `todos`.
 
-+ Return the new list of todos.
++ Return the new list of `todos`.
 
 To decode any json string into a real python object, we can use this function:
 
@@ -21,4 +21,4 @@ decoded_object = json.loads(original_string)
 
 2. Add the decoded object into the todos list.
 
-3. Return the jsonify list of updated todos.
+3. Return the jsonify list of updated `todos`.
