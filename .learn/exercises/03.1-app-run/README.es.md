@@ -25,4 +25,4 @@ $ pipenv run python src/app.py
 ```
 > Abre una nueva terminal para ejecutar este comando.
 
-![Running Terminal](https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.learn/assets/running-flask-app.gif?raw=true)
+![Running Terminal](../../../.learn/assets/running-flask-app.gif?raw=true)

@@ -8,8 +8,7 @@ POST /todos
 DELETE /todos
 ```
 
-Para poder contruir el `POST /todos` debemos hacer algo similar a lo wue hicimos en el primer endpoint, recuerda que cada endpoint en una Flask API está representada por una función y decorador como este:
-
+Para poder contruir el `POST /todos` debemos hacer algo similar a lo que hicimos en el primer endpoint, recuerda que cada endpoint en una Flask API está representada por una función y decorador como este:
 
 ```python
 @app.route('/blabla', methods=['GET'])
@@ -22,7 +21,6 @@ Pero en este caso no esperaremos una solicitud `GET`.
 También, esperamos recibir el `todo` (tarea) que el cliente quiere añadir dentro del `Request Body` (cuerpo de la solicitud), solo que en este caso, no esperaremos una `request`(solicitud) `GET`.
 
 Esperamos recibir el `todo` que el cliente desea añadir dentro del `request body`.
-
 
 ```python
 from flask import request
@@ -45,7 +43,6 @@ def add_new_todo():
 ```
 
 2. Recuerda añadir el `import request` al comienzao del archivo:
-
 
 ```python
 from flask import request
