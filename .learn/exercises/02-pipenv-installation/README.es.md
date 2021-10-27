@@ -16,6 +16,6 @@ $ pipenv --three
 
 Deberías ver un  **PipFile** en la raíz de tu proyecto y dentro debería tener **[requires]** en la versión de Python 3+ similar a este (pero quizás con una diferente versión de Python 3).
 
-![Pipfile preview](https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.learn/assets/pipfile.png?raw=true)
+![Pipfile preview](../../../.learn/assets/pipfile.png?raw=true)
 
 Prueba este paso y haz clic en `next →` para continuar.

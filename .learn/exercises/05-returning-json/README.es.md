@@ -32,4 +32,5 @@ todos = [
 ```python
 { "label": "My first task", "done": False }
 ```
+
 2. Cambia la declaración del return de tu método `hello_world` para que retorne la versión jsonify de los todos globales.

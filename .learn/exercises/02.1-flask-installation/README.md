@@ -11,6 +11,6 @@ $ pipenv install flask
 ```
 ## Expected output:
 
-![Expected console ouput](https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.learn/assets/install-flask.png?raw=true)
+![Expected console ouput](../../../.learn/assets/install-flask.png?raw=true)
 
 Test your step and click `next →` continue.
