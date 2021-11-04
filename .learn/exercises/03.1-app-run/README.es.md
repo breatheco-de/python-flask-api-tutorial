@@ -21,8 +21,8 @@ Ejecuta tu nuevo servidor abrieno un **nuevo termial aparte** y escribe el sigui
 
 ```bash
 $ pipenv run python src/app.py
-
 ```
+
 > Abre una nueva terminal para ejecutar este comando.
 
 ![Running Terminal](../../../.learn/assets/running-flask-app.gif?raw=true)
