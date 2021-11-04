@@ -14,7 +14,7 @@ If you are building this project using Gitpod, you don't have to install anythin
 
 ## 📝 Instructions:
 
-1.  Open a new terminal (leave this one open)
+1. Open a new terminal (leave this one open)
 
 2. Make sure you have python version 3:
 
