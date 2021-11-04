@@ -2,7 +2,7 @@
 
 ¡Al parecer tu API se está ejecutando!
 
-Puedes verificarlo haciendo clic en la URL que se ve en la línea de comando una vez que Flask haya comenzado a ejecutarse así:
+Puedes verificarlo haciendo clic en la URL que se ve en la línea de comandos una vez que Flask haya comenzado a ejecutarse así:
 
 ![Check Flask Live](../../../.learn/assets/live-api.gif?raw=true)
 
