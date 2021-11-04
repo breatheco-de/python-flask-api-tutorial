@@ -1,6 +1,6 @@
 # `07` POST /todos (añade un nuevo task)
 
-Ahora que ya está hecho el mñetodo GET `/todos`, debemos pensar en el resto de los endpoints de nuestra API:
+Ahora que ya está hecho el método GET `/todos`, debemos pensar en el resto de los endpoints de nuestra API:
 
 ```txt
 GET /todos
@@ -18,14 +18,14 @@ def hello_world():
 
 Pero en este caso no esperaremos una solicitud `GET`.
 
-También, esperamos recibir el `todo` (tarea) que el cliente quiere añadir dentro del `Request Body` (cuerpo de la solicitud), solo que en este caso, no esperaremos una `request`(solicitud) `GET`.
+También, esperamos recibir el `todo` (tarea) que el cliente quiere añadir dentro del `request_body` (cuerpo de la solicitud), solo que en este caso, no esperaremos una `request`(solicitud) `GET`.
 
-Esperamos recibir el `todo` que el cliente desea añadir dentro del `request body`.
+Esperamos recibir el `todo` que el cliente desea añadir dentro del `request_body`.
 
 ```python
 from flask import request
 
-# el request body o cuerpo de la solicitud ya fue decodificado por json y se encuentra en la variable request.data  
+# el request_body o cuerpo de la solicitud ya fue decodificado por json y se encuentra en la variable request.data  
 
 print(request.data)
 ```
@@ -42,7 +42,7 @@ def add_new_todo():
     return 'Response for the POST todo'
 ```
 
-2. Recuerda añadir el `import request` al comienzao del archivo:
+2. Recuerda añadir el `import request` al comienzo del archivo:
 
 ```python
 from flask import request
