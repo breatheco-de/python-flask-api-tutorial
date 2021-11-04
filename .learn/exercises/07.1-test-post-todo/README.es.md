@@ -10,7 +10,7 @@ def add_new_todo():
     return 'Response for the POST todo'
 ```
 
-Usa postman, insomnia or cualquier otro API Request Builder que quieras para probar tu API , aquí hay un ejemplo sobre como hacerlo con (postwoman.io)[https://youtu.be/HEQ-pSgOVtY]
+Usa postman, insomnia o cualquier otro API Request Builder que quieras para probar tu API.
 
 |  |  |
 | ------ | -------- |
