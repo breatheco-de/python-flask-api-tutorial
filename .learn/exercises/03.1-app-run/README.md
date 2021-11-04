@@ -1,12 +1,12 @@
-## `03.1` Running your new application
+# `03.1` Running your new application
 
 After creating our app, we need to run and start the application.
 
 When the application runs it will take over your command line, you will not be able to type on it anymore because a server application (like flask) never stops running, it keeps waiting for "requests" forever.
 
-## 📝Instructions
+## 📝 Instructions:
 
-Add the following lines to the end of your `src/app.py` file:
+1. Add the following lines to the end of your `src/app.py` file:
 
 ```python
 # These two lines should always be at the end of your app.py file.
@@ -24,4 +24,4 @@ $ pipenv run python src/app.py
 
 > Open a new terminal to run this command.
 
-![Running Terminal](https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.learn/assets/running-flask-app.gif?raw=true)
+![Running Terminal](../../../.learn/assets/running-flask-app.gif?raw=true)
