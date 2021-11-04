@@ -10,17 +10,17 @@ def hello_world():
     return 'Hello, World!'
 ```
 
-+ La primera línea `@app.route('/blabla')` especifica el endpoint que estará disponible desde ahora en adelante, en eeste caso `mydomain.com/blabla`.
++ La primera línea `@app.route('/blabla')` especifica el endpoint que estará disponible desde ahora en adelante, en este caso `mydomain.com/blabla`.
 
 + La primera línea también especifica el método que se usará con esa URL, en este caso es el método `GET` (para obtener info).
 
 + La segunda línea define una función que será llamada por Flask cuando ese endpoint sea llamado por el usuario (cuando el usuario use `/hello`).
 
-+ LA tercera línea retorna el texto: `Hello World` al cliente o navegador que lo solicite.
++ La tercera línea retorna el texto: `Hello World` al cliente o navegador que lo solicite.
 
 ## 📝Instrucciones:
 
-1. Usando ese conocimiento, haz que tu servidor retorno el string `"<h1>Hello!</h1>"` cuando la URL `/todos` se ingrese en el navegador.
+1. Usando ese conocimiento, haz que tu servidor retorne el string `"<h1>Hello!</h1>"` cuando la URL `/todos` se ingrese en el navegador.
 
 2. Asegúrate que estas líneas siempre sean las dos últimas de tu archivo `app.py`.
 
