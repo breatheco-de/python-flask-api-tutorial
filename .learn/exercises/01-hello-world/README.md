@@ -27,7 +27,7 @@ $ python3 --version
 ```
 
 
-👉 Nota: if you don't have python version 3 you should go ahead and install it, we [🔥 strongy recommend using Pyenv](https://github.com/pyenv/pyenv) to install python.
+👉 Note: if you don't have python version 3 you should go ahead and install it, we [🔥 strongy recommend using Pyenv](https://github.com/pyenv/pyenv) to install python.
 
 3. Make sure you have pipenv installed:
 
