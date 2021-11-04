@@ -6,7 +6,7 @@ You can use the [flask jsonify](https://flask.palletsprojects.com/en/1.1.x/api/#
 
 ```python
 def hello_world():
-    # suppose you have some information (some_data) in a json variable
+    # suppose you have some_data (some information) in a variable
     some_data = { "name": "Bobby", "lastname": "Rixer" }
 
     # you can convert that variable into a json string like this
@@ -27,7 +27,7 @@ todos = [
 
 ## 📝Instructions:
 
-1. Create a global variable todos. Do not declare the variable inside any function, make sure to declare the varible anywhere at the global scope. Make sure the variable contains at least one task item inside with the following structure:
+1. Create a global variable todos. Do not declare the variable inside any function, make sure to declare the variable anywhere at the global scope. Make sure the variable contains at least one task item inside with the following structure:
 
 ```python
 { "label": "My first task", "done": False }
