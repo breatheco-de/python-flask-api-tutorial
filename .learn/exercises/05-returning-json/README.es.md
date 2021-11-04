@@ -16,7 +16,7 @@ def hello_world():
     return json_text
 ```
 
-Si aplicamos estos conocimientos a nuestro proyecto de todo-list, podemos crea una variable global  `todos` que va a contener la lista de todos de esta forma:
+Si aplicamos estos conocimientos a nuestro proyecto de todo-list, podemos crear una variable global  `todos` que va a contener la lista de todos de esta forma:
 
 ```python
 todos = [
