@@ -1,6 +1,6 @@
 # `03.1` Ejecutando tu nueva aplicación
 
-Después de crear nuestra app, debemos ejecutar e incicializar la aplicación.
+Después de crear nuestra app, debemos ejecutar e inicializar la aplicación.
 
 Cuando la aplicación se ejecute, usará tu línea de comando, ya no podrás escribir nada en ella porque el servidor de la aplicación (como por ejemplo flask) nunca deja de ejecutarse, espera por las "requests" o solicitudes eternamente.
 
@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
 > Estas dos líneas deberían estar al final de tu archivo.
 
-Ejecuta tu nuevo servidor abrieno un **nuevo termial aparte** y escribe el siguiente comando:
+Ejecuta tu nuevo servidor abriendo un **nuevo termial aparte** y escribe el siguiente comando:
 
 ```bash
 $ pipenv run python src/app.py
