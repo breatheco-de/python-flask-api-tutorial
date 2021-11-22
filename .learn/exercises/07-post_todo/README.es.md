@@ -8,7 +8,7 @@ POST /todos
 DELETE /todos
 ```
 
-Para poder contruir el `POST /todos` debemos hacer algo similar a lo que hicimos en el primer endpoint, recuerda que cada endpoint en una Flask API está representada por una función y decorador como este:
+Para poder construir el `POST /todos` debemos hacer algo similar a lo que hicimos en el primer endpoint, recuerda que cada endpoint en una Flask API está representada por una función y decorador como este:
 
 ```python
 @app.route('/blabla', methods=['GET'])
