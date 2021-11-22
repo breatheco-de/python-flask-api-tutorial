@@ -24,4 +24,4 @@ $ pipenv run python src/app.py
 
 > Open a new terminal to run this command.
 
-![Running Terminal](../../../.learn/assets/running-flask-app.gif?raw=true)
+![Running Terminal](../../assets/running-flask-app.gif?raw=true)

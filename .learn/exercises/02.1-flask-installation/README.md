@@ -9,8 +9,9 @@ Now we have to install our first package dependency for this project: [Flask](ht
 ```bash
 $ pipenv install flask
 ```
+
 ## Expected output:
 
-![Expected console ouput](../../../.learn/assets/install-flask.png?raw=true)
+![Expected console ouput](../../assets/install-flask.png?raw=true)
 
 Test your step and click `next →` continue.

@@ -12,6 +12,6 @@ $ pipenv install flask
 
 ## Resultado esperado:
 
-![Expected console ouput](../../../.learn/assets/install-flask.png?raw=true)
+![Expected console ouput](../../assets/install-flask.png?raw=true)
 
 Prueba estos pasos y dale clic a  `next →` para continuar.
