@@ -1,4 +1,4 @@
-# `03.3` Tu primer Endpoint (ruta)
+# `03.3` Your first Endpoint (ruta)
 
 Como Flask es un servidor, no tiene sentido no añadirle URLs para exponerlas/publicarlas en internet, por ejemplo:
 

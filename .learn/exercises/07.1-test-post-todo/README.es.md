@@ -1,4 +1,4 @@
-# `07.1` Prueba tu endpoint
+# `07.1` Test your endpoint
 
 Hasta ahora esto lo que tienes sobre el endpoint `POST /todos`, tomate el tiempo para analizar cada línea:
 

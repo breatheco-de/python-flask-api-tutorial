@@ -1,4 +1,4 @@
-# `08.2` Termina el delete todo
+# `08.2` Finish delete todo
 
 ## 📝 Instrucciones:
 

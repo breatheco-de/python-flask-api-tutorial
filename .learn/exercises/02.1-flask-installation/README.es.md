@@ -1,4 +1,4 @@
-# `02.1` Instala Flask
+# `02.1` Install Flask
 
 Ahora tenemos que instalar la dependencia de nuestro primer paquete para este proyecto: [Flask](https://flask.palletsprojects.com/en/1.1.x/).
 

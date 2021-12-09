@@ -1,4 +1,4 @@
-# `07.2` Termina el POST /todos
+# `07.2` Finish the POST /todos
 
 Ahora, si queremos terminar el `post` tenemos que hacer dos acciones específicas:
 

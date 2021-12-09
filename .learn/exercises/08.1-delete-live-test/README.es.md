@@ -1,4 +1,4 @@
-# `08.1` Prueba tu endpoint
+# `08.1` Test your endpoint
 
 Hasta ahora esto es lo que tienes sobre el endpoint  `DELETE /todos/<int:position>`, tómate tu tiempo para analizar cada línea:
 
