@@ -8,7 +8,7 @@ Este es un tutorial interactivo que te enseñará cómo crear una API usando el 
 
 Este proyecto viene con los archivos necesarios para empezar a trabajar, pero tienes dos opciones para empezar:
 
-a) Abrir este link con Gitpod en tu navegador: https://gitpod.io#https://github.com/breatheco-de/python-flask-api-tutorial
+a) Abrir este enlace con Gitpod en tu navegador: https://gitpod.io#https://github.com/breatheco-de/python-flask-api-tutorial
 
 b) Clonar este repositorio localmente en tu computador:
 ```sh
@@ -17,9 +17,9 @@ $ git clone https://github.com/breatheco-de/python-flask-api-tutorial
 
 💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
 
-## About the project we are going to build
+## Acerca del proyecto que vamos a construir
 
-En este tutorial, crearemos una API REST que expone 3 enpoints a Internet:
+En este tutorial, crearemos una API REST que expone 3 endpoints a Internet:
 
 ```txt
 GET /todos
@@ -29,7 +29,7 @@ DELETE /todos/<int:position>
 
 ### GET /todos
 
-Devolverá una lista con todos o tareas asi:
+Devolverá una lista con to-dos o tareas, asi:
 ```javascript
 [
     {
@@ -45,7 +45,7 @@ Devolverá una lista con todos o tareas asi:
 
 ### POST /todos
 
-Agregará una nueva tarea o todo a la lista, y recibirá el siguiente request body:
+Agregará una nueva tarea o to-do a la lista, y recibirá el siguiente request body:
 
 ```javascript
 {
@@ -54,7 +54,7 @@ Agregará una nueva tarea o todo a la lista, y recibirá el siguiente request bo
 }
 ```
 
-Y devolverá la lista de taread o todos actualizada.
+Y devolverá la lista de tareas o to-dos actualizada.
 
 ### DELETE /todos/<int:position>
 
