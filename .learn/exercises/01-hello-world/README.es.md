@@ -26,7 +26,7 @@ $ python --version
 $ python3 --version
 ```
 
-👉 Nota: Si no tienes la versión 3 de Python, instalála,  [🔥 te recomendamos usar Pyenv](https://github.com/pyenv/pyenv) para instalar Python.
+👉 Nota: Si no tienes la versión 3 de Python, instálala,  [🔥 te recomendamos usar Pyenv](https://github.com/pyenv/pyenv) para instalar Python.
 
 3. Asegúrate de tener `pipenv` instalado:
 
