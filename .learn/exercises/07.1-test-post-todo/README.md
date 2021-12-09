@@ -5,7 +5,7 @@ This is what you have so far about the `POST /todos` endpoint, take some time to
 ```python
 @app.route('/todos', methods=['POST'])
 def add_new_todo():
-    request_body = request.data
+    request_body = request.json
     print("Incoming request with the following body", request_body)
     return 'Response for the POST todo'
 ```
