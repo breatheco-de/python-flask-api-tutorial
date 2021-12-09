@@ -55,7 +55,7 @@ It's going to add a new todo to the list, it will receive the following request 
 }
 ```
 
-And return the updated list of todos
+And return the updated list of todos.
 
 ### DELETE /todos/<int:position>
 
