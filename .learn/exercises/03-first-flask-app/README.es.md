@@ -1,4 +1,4 @@
-# `03` Primera App Flask
+# `03` First Flask App
 
 Flask es una app que se comporta como un servidor web, es decir que expone (publica) un grupo de URLs en internet (como una api o un sitio web).
 

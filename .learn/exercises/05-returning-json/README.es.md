@@ -1,4 +1,4 @@
-# `05` Retornando JSON
+# `05` Returning JSON
 
 Las REST APIs tienen que retornar datos en formato JSON, no en formato HTML.
 

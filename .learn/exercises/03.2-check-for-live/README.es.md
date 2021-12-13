@@ -1,4 +1,4 @@
-# `03.2` Verifica la URL live
+# `03.2` Check for live URL 
 
 ¡Al parecer tu API se está ejecutando!
 

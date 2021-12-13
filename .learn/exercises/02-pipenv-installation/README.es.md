@@ -1,4 +1,4 @@
-# `02` Inicializa Pipenv
+# `02` Initialize Pipenv
 
 Es posible tener varios proyectos con Python con diferentes versiones de Python, por esta razón debes especificar que versión de Python quieres usar en cada proyecto durante su configuración.
 

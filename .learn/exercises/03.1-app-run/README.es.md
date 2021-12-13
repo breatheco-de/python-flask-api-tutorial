@@ -1,4 +1,4 @@
-# `03.1` Ejecutando tu nueva aplicación
+# `03.1` Running your new application
 
 Después de crear nuestra app, debemos ejecutar e inicializar la aplicación.
 
