@@ -98,13 +98,13 @@ def test_add_new_todo():
 @pytest.mark.it("The endpoint POST /todos should exist")
 def test_return(client):
     response = client.post('/todos', data=json.dumps({ "done": True, "label": "Sample Todo 2" }))
-    assert response.status_code == 200
+    assert response.status_code in [200, 201]
 
 
 @pytest.mark.it("POST /todos should return json list of todos")
 def test_simple_add(client):
     response = client.post('/todos', data=json.dumps({ "done": True, "label": "Sample Todo 2" }))
-    assert response.status_code == 200
+    assert response.status_code in [200, 201]
     data = json.loads(response.data)
     assert isinstance(data, list)
 
