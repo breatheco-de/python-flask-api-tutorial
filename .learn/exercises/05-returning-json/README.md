@@ -38,5 +38,5 @@ todos = [
 [ { "label": "My first task", "done": False } ]
 ```
 
-2. Change the return statement of your `hello_world` method to make it return the jsonified version of the global variable `todos`.
+2.  Change the function that is executed on the `/todos` endpoint method to make it return the jsonified version of the global variable `todos`.
 
