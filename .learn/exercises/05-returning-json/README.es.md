@@ -33,4 +33,4 @@ todos = [
 { "label": "My first task", "done": False }
 ```
 
-2. Cambia la función del endpoint de tu método GET para que retorne la versión en json de la variable de `todos` recién creada.
+2. Cambia la función del endpoint de tu método GET para que retorne la versión en json (Usando jsonify) de la variable de `todos` recién creada.
