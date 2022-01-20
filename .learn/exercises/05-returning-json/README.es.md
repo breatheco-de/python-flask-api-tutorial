@@ -33,4 +33,4 @@ todos = [
 { "label": "My first task", "done": False }
 ```
 
-2. Cambia la declaración del return de tu método `hello_world` para que retorne la versión jsonify de los todos globales.
+2. Cambia la función del endpoint de tu método GET para que retorne la versión en json (Usando jsonify) de la variable de `todos` recién creada.
