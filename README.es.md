@@ -29,7 +29,7 @@ DELETE /todos/<int:position>
 
 ### GET /todos
 
-Devolverá una lista con to-dos o tareas, asi:
+Devolverá una lista con to-dos o tareas, así:
 ```javascript
 [
     {
