@@ -16,9 +16,9 @@
         "APIs",
         "REST"
     ],
-    
-        "editor": {
-            "version": "1.0.73"
-        }
-    
+    "editor": {
+        "version": "1.0.73"
+    },
+    "autoPlay": false,
+    "projectType": "tutorial"
 }
