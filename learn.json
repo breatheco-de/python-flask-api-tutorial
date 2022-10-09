@@ -8,6 +8,8 @@
     "duration": 6,
     "grading": "incremental",
     "difficulty": "easy",
+    "video-solutions": false,
+    "bugs-link": "https://github.com/learnpack/learnpack/issues/new",
     "description": "Create a Todo list API Interactively using Python language and the Flask Framework",
     "technologies": [
         "python",
