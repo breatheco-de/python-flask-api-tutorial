@@ -21,6 +21,6 @@
     "editor": {
         "version": "1.0.73"
     },
-    "autoPlay": false,
+    "autoPlay": true,
     "projectType": "tutorial"
 }
