@@ -10,7 +10,7 @@ def hello_world():
     some_data = { "name": "Bobby", "lastname": "Rixer" }
 
     # puedes convertir esa variable en un string json así
-    json_text = flask.jsonify(some_data)
+    json_text = jsonify(some_data)
 
     # y luego puedes retornarla (return) en el response body así:
     return json_text
