@@ -10,7 +10,7 @@ DELETE /todos/<int:position>
 
 ## **GET /todos** 
 
-It will return the list of all todos like this:
+It will return the list of all todos in a JSON format like this:
 
 ```javascript
 [
@@ -27,7 +27,7 @@ It will return the list of all todos like this:
 
 ## **POST /todos**
 
-It's going to add a new todo to the list by sending the following request body:
+The POST method is going to add a new todo to the list by sending the following request body:
 
 ```javascript
 {
@@ -57,4 +57,4 @@ And then, it returns the updated list of todos:
 
 ## **DELETE /todos/<int:position>**
 
-It's going to remove one todo based on a given position at the end of the url, and return the updated list of todos.
+The DELETE method is going to remove one todo based on a given position at the end of the url, and return the updated list of todos.
