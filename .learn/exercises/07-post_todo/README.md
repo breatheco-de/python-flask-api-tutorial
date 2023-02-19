@@ -29,7 +29,7 @@ print(request.json)
 
 ## 📝 Instructions:
 
-1. Remember to import request at the top of the file:
+1. Remember to import `request` at the top of the file:
 
 ```python
 from flask import request
