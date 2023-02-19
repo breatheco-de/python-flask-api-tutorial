@@ -1,6 +1,6 @@
 # `07.1` Test your endpoint
 
-This is what you have so far about the `POST /todos` endpoint, take some time to analyze each line:
+This is what you should have so far for the `POST /todos` endpoint. Take some time to analyze each line and ask questions where needed:
 
 ```python
 @app.route('/todos', methods=['POST'])
