@@ -14,7 +14,7 @@ Every python project should be wrapped in a "virtual environment" to ensure that
 $ pipenv --three
 ```
 
-You should see a **PipFile** on the root of your project and it should have inside a **[requires]** for python version 3+ similar to this one (but maybe with a different python 3 version).
+You should see a **PipFile** on the root of your project and it should have a **[requires]** inside of it for python version 3+: similar to this one (but maybe with a different python 3 version).
 
 ![Pipfile preview](../../assets/pipfile.png?raw=true)
 
