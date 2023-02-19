@@ -2,7 +2,7 @@
 
 <a href="https://www.breatheco.de"><img height="280" align="right" src="https://raw.githubusercontent.com/breatheco-de/python-flask-api-tutorial/3ffb90ea974146f57a3bdfd59665b4c4d5d05197/.breathecode/assets/badge.svg"></a>
 
-This is an interactive tutorial that will teach you how to create an API using the Python Flask framework using Python and Pipenv.
+This is an interactive tutorial that will teach you how to create an API using the Flask framework using Python and Pipenv.
 
 ## 🌱  How to start this project
 
@@ -46,7 +46,7 @@ Will return the list of all todos like this:
 
 ### POST /todos
 
-It's going to add a new todo to the list, it will receive the following request body:
+This will add a new todo to the list with the following request body:
 
 ```javascript
 {
@@ -59,5 +59,5 @@ And return the updated list of todos.
 
 ### DELETE /todos/<int:position>
 
-It's going to remove one todo based on a given position at the end of the url, and return the updated list of todos.
+This will remove one todo, based on a given position in the todos list, at the end of the url and return the updated list of todos.
 
