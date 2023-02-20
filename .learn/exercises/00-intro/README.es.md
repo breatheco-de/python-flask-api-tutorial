@@ -11,7 +11,7 @@ DELETE /todos/<int:position>
 
 ## GET /todos
 
-Retornaremos toda la lista de to-dos así:
+Retornaremos toda la lista de todos así:
 
 ```javascript
 [
@@ -28,7 +28,7 @@ Retornaremos toda la lista de to-dos así:
 
 ## POST /todos 
 
-Añadirá un nuevo to-do a la lista. Recibirá el siguiente request body:
+Añadirá un nuevo todo a la lista. Recibirá el siguiente request body:
 
 ```javascript
 {
@@ -37,9 +37,9 @@ Añadirá un nuevo to-do a la lista. Recibirá el siguiente request body:
 }
 ```
 
-Y retornará la lista actualizada de los to-dos:
+Y retornará la lista actualizada de los todos:
 
 ## DELETE /todos/<int:position>
 
-Eliminará un to-do basándose en la posición dada al final de la url, y retorna la lista actualizada de to-dos.
+Eliminará un todo basándose en la posición dada al final de la url, y retorna la lista actualizada de todos.
 
