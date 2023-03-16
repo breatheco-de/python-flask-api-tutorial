@@ -14,7 +14,7 @@ def hello_world():
 
 + The first line also specifies the methods that will be used with that URL, in this case `GET` method (for reading).
 
-+ The second line defines a function that will be called by Flask when that endpoint is called by the user (when the user requests `/hello`).
++ The second line defines a function that will be called by Flask when that endpoint is called by the user (when the user requests `/blabla`).
 
 + The third line returns the text: "Hello World" to the requesting client or browser.
 
