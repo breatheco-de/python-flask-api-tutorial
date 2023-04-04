@@ -6,18 +6,21 @@
 
 This is an interactive tutorial that will teach you how to create an API using the Python Flask framework using Python and Pipenv.
 
-## 🌱  How to start this project
+### 🌱  How to start this project
 
-This project comes with the necessary files to start working, but you have two options to start:
+This project comes with the necessary files to start working immediately.
 
-a) Open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/python-flask-api-tutorial
+We recommend opening this very same repository using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command.
 
-b) You can clone this repository on your local computer:
-```sh
-$ git clone https://github.com/breatheco-de/python-flask-api-tutorial
+This is the repository you need to open:
+
 ```
-💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit`, and `push`.
+https://github.com/breatheco-de/python-flask-api-tutorial
+```
 
+**👉 Please follow these steps on** [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-project).
+
+💡 Important: Remember to save and upload your code to GitHub by creating a new repository, updating the remote (`git remote set-url origin <your new url>`), and uploading the code to your new repository using the `add`, `commit` and `push` commands from the git terminal.
 
 ## About the project we are going to build
 
@@ -62,4 +65,6 @@ And return the updated list of todos.
 ### DELETE /todos/<int:position>
 
 It's going to remove one todo based on a given position at the end of the url, and return the updated list of todos.
+
+This and many other projects are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
 
