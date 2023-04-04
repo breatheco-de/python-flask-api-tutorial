@@ -1,4 +1,6 @@
+<!--hide-->
 # Todo List API in Python Flask
+<!--endhide-->
 
 <a href="https://www.breatheco.de"><img height="280" align="right" src="https://raw.githubusercontent.com/breatheco-de/python-flask-api-tutorial/3ffb90ea974146f57a3bdfd59665b4c4d5d05197/.breathecode/assets/badge.svg"></a>
 
@@ -14,12 +16,12 @@ b) You can clone this repository on your local computer:
 ```sh
 $ git clone https://github.com/breatheco-de/python-flask-api-tutorial
 ```
-💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit`, and `push`.
 
 
 ## About the project we are going to build
 
-In this tutorial we are going to be building a REST API that exposes 3 endpoints to the internet:
+In this tutorial, we are going to be building a REST API that exposes 3 endpoints to the internet:
 
 ```txt
 GET /todos
