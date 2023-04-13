@@ -1,13 +1,5 @@
 # `07.2` Finish the POST /todos
 
-Now... if we want to finish the post, we have to perform these specific actions:
-
-+ First make sure that you are converting the request body into a real python data structure, like a dictionary. We already used `request.json` for that, since we know that the request will be in format application/json. If that is not known, you may want to use `request.get_json(force=True)` to ignore the content type and treat it like json. 
-
-+ Add the dictionary into the list of `todos`.
-
-+ Return the new list of `todos`.
-
 Your code should look like this by now:
 
 ```python
@@ -17,12 +9,19 @@ def add_new_todo():
     request_body = request.json
     print("Incoming request with the following body", request_body)
     return 'Response for the POST todo'
-
 ```
 
-Obviously this endopint is currently not adding anything new to our 'database' (the `todo` list). 
+Now... if we want to finish our `POST` method, we have to perform the following specific actions:
 
-Let's complete the code so the endpoint can do its job - add a new task to the `todos`.
++ First: Make sure that you are converting the request body into a real python data structure, like a dictionary. You can see that we already used `request.json` for that since we know the request will be in application/json. However, if that is not known, you may want to use `request.get_json(force=True)` to ignore the content type and treat it like json. 
+
++ Second: Add the dictionary into the list of `todos`.
+
++ Last: Return the new list of `todos`.
+
+Currently, this endopint is not adding anything new to our 'database' (the `todo` list). 
+
+Let's complete our code so the endpoint can do its job - add a new task to the `todos` list.
 
 
 ## 📝 Instructions:
@@ -31,4 +30,4 @@ Let's complete the code so the endpoint can do its job - add a new task to the `
 
 2. Return the updated list `todos` to the front end. 
 
-3. Do not forget to `jsonify` your return. Why is this necessary - discuss with the class. 
+3. Do not forget to `jsonify` your return. Why is this necessary? Ask instructor to discuss with the class. 

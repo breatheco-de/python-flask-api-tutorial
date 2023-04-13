@@ -9,10 +9,10 @@ You can use the [flask jsonify](https://flask.palletsprojects.com/en/1.1.x/api/#
 # add the jsonify method to your Flask import
     from flask import Flask, jsonify
 
-# suppose you have your data in the variable some_data
+# suppose you have your data in the variable named some_data
     some_data = { "name": "Bobby", "lastname": "Rixer" }
 
-@app.route('/blahblah', methods=['GET'])
+@app.route('/myroute', methods=['GET'])
 def hello_world():
     # you can convert that variable into a json string like this
     json_text = jsonify(some_data)
@@ -21,7 +21,7 @@ def hello_world():
     return json_text
 ```
 
-If we apply this knowledge to our ToDo-list project we can create a global variable `todos` that will contain the list of todos like this:
+If we apply this knowledge to our ToDo-list project, we can create a global variable named `todos` that will hold the list of todos like this:
 
 ```python
 todos = [
@@ -32,10 +32,10 @@ todos = [
 
 ## 📝Instructions:
 
-1. Create a global variable todos. Do not declare the variable inside any function, make sure to declare the variable anywhere at the global scope. Make sure the variable contains at least one task item inside with the following structure:
+1. Create a global variable called `todos`. Do not declare the variable inside any function. Declare the variable in the global scope and make sure the variable contains at least one task item (our task objects) inside with the following structure:
 
 ```python
 [ { "label": "My first task", "done": False } ]
 ```
 
-2.  Change the function that is executed on the GET method's endpoint to make it return the jsonified version of the global variable `todos`.
+2.  Change the function on the GET method's endpoint from string output so that it will return the jsonified version of the global variable `todos`.

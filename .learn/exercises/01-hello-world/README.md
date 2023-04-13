@@ -1,6 +1,6 @@
 # Hello World with Flask 
 
-During this tutorial, we'll be building a REST API using Python programming language and the [Flask library](https://flask.palletsprojects.com/en/1.1.x/) (ideal for creating APIs).
+During this tutorial, we'll be building a REST API using the Python programming language and the [Flask library](https://flask.palletsprojects.com/en/1.1.x/) (ideal for creating APIs).
 
 But we are going to do it the right way! Following all the good practices, we have to install and learn some things first.
 
@@ -16,7 +16,7 @@ If you are building this project using Gitpod, you don't have to install anythin
 
 1. Open a new terminal (leave this one open)
 
-2. Make sure you have python version 3:
+2. Make sure you have python version 3 by running the following commands:
 
 ```bash
 $ python --version
@@ -31,7 +31,7 @@ $ python3 --version
 
 3. Make sure you have pipenv installed:
 
-Instead of using Pip and virtual env, we are going to be using Pipenv: A combination of both technologies that will make your life much easier.
+Instead of using Pip and virtual env separately, we are going to be using Pipenv: A combination of both technologies that will make your life much easier.
 
 ```bash
 $ pipenv --version
