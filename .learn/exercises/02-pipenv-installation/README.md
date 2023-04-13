@@ -11,7 +11,7 @@ Every python project should be wrapped in a "virtual environment" to ensure that
 1. Run the following command to create a new virtual environment with python 3 on it:
 
 ```bash
-$ pipenv --three
+$ pipenv install --python 3
 ```
 
 You should see a **PipFile** on the root of your project and it should have a **[requires]** inside of it for python version 3+: similar to this one (but maybe with a different python 3 version).

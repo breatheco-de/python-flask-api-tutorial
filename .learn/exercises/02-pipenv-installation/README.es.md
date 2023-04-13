@@ -11,7 +11,7 @@ Cada proyecto de python debe estar envuelto en un "ambiente virtual" para asegur
 1. Ejecuta el siguiente comando para crear un nuevo entorno virtual con Python 3:
 
 ```bash
-$ pipenv --three
+$ pipenv install --python 3
 ```
 
 Deberías ver un  **PipFile** en la raíz de tu proyecto y dentro debería tener **[requires]** en la versión de Python 3+ similar a este (pero quizás con una diferente versión de Python 3).
