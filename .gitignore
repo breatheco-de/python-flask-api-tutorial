@@ -1,6 +1,8 @@
 
 # configuration and readme
 !.gitignore
+!.devcontainer
+!.devcontainer/*
 !.gitpod.yml
 .theia
 .vscode
