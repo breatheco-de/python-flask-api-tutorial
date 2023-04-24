@@ -9,6 +9,7 @@
 !.gitpod.Dockerfile
 !learn.json
 !README.md
+!.vscode
 
 # learn exercises
 !/.learn
