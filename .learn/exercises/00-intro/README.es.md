@@ -1,7 +1,6 @@
-# Bienvenido a Flask!
+# Welcome to Flask!
 
-En este tutorial vamos a construir una REST API que expone 3 endpoints
-internet:
+En este tutorial vamos a construir una REST API que expone 3 endpoints a Internet:
 
 ```txt
 GET /todos
@@ -39,7 +38,24 @@ Añadirá un nuevo to-do a la lista. Recibirá el siguiente request body:
 
 Y retornará la lista actualizada de los to-dos:
 
+```javascript
+[
+    {
+        "done": true,
+        "label": "Sample Todo 1"
+    },
+    {
+        "done": true,
+        "label": "Sample Todo 2"
+    },
+    {
+        "done": true,
+        "label": "Sample Todo 3"
+    }
+]
+```
+
 ## DELETE /todos/<int:position>
 
-Eliminará un to-do basándose en la posición dada al final de la url, y retorna la lista actualizada de to-dos.
+Eliminará un to-do basándose en la posición dada al final de la URL y retorna la lista actualizada de to-dos.
 
