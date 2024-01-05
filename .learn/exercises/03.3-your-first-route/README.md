@@ -2,7 +2,7 @@
 
 Since Flask is a server, it only makes sense to add some URLs to expose over the internet, for example: `mydomain.com/hello`
 
-As a developer, if we would like people to visit `http://mydomain.com/hello` and show a message like `Hello World` to those people, we have to add the following endpoint inside our `app.py` file:
+As a developer, if we would like people to visit `http://mydomain.com/myroute` and show a message like `Hello World!` to those people, we have to add the following endpoint inside our `app.py` file:
 
 ```python
 @app.route('/myroute', methods=['GET'])
@@ -16,7 +16,7 @@ def hello_world():
 
 + The second line defines a function that will be called by Flask when that endpoint is called by the user (when the user requests `/myroute`).
 
-+ The third line defines our function execution and in this case, returns the text "Hello World!" to the requesting client or browser.
++ The third line defines our function execution and in this case, returns the text `"Hello World!"` to the requesting client or browser.
 
 ## 📝 Instructions:
 
