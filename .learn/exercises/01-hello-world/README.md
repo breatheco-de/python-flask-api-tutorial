@@ -4,7 +4,7 @@ During this tutorial, we'll be building a REST API using the Python programming 
 
 But we are going to do it the right way! Following all the good practices, we have to install and learn some things first.
 
-## 📦 Requirements
+## 📦 Requirements:
 
 1. Python 3+
 
