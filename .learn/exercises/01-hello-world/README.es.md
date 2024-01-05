@@ -32,7 +32,7 @@ $ python3 --version
 
 En vez de usar Pip y virtual env, usaremos Pipenv: Una combinación de ambas tecnologías que harán tu vida mucho más fácil.
 
-```txt
+```bash
 $ pipenv --version
 ```
 
