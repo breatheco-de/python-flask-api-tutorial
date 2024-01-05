@@ -26,6 +26,4 @@ $ pipenv run python src/app.py
 
 ![Running Terminal](../../assets/running-flask-app.gif?raw=true)
 
-## Command Explanation:
-
-We use our combined `pipenv` command to start up our virtual environment and *run* it using Python. Our target file for starting our server for future requests is our `src/app.py`.
+The way this command works is we use our combined `pipenv` command to start up our virtual environment and *run* it using Python. Our target file for starting our server for future requests is `src/app.py`.
