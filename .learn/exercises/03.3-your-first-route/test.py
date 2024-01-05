@@ -16,7 +16,7 @@ def client():
         os.close(db_fd)
         os.unlink(app.config['DATABASE'])
 
-@pytest.mark.it("folder src must exist")
+@pytest.mark.it("folder /src must exist")
 def test_src_folder():
   assert os.path.isdir("./src/")
 
@@ -37,7 +37,7 @@ def test_declare_variable2():
         regex = re.compile(r"@app\.route(\s*)\((\s*)'\/[a-zA-Z0-9]+'(\s*),(\s*)methods=(\s*)\[(\s*)'GET'(\s*)\](\s*)\)")
         assert bool(regex.search(content)) == True
 
-@pytest.mark.it("Make sure '/hello' is the route your specified inside the @app.route decorator")
+@pytest.mark.it("Make sure '/todos' is the route you specified inside the @app.route decorator")
 def test_declare_variable3():
     path = 'src/app.py'
     with open(path, 'r') as content_file:
