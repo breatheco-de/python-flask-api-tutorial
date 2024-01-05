@@ -2,7 +2,7 @@
 
 Flask is an app that behaves like a web server: it exposes (publishes) a group of URLs to the internet (like an API or website). 
 
-For example, you can use Flask with a domain and expose the following URLs to the Internet: 
+For example, you can use Flask with a domain and expose the following URLs to the internet: 
 
 ```txt
 mywebsite.com/home
