@@ -20,7 +20,7 @@ https://github.com/breatheco-de/python-flask-api-tutorial
 
 **👉 Por favor sigue estos pasos en** [cómo comenzar un proyecto de programación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
 
-💡 Importante: Recuerda guardar y cargar tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y cargando el código en su nuevo repositorio usando los comandos `add`, `commit` y `push` desde el terminal git.
+> 💡 Importante: Recuerda guardar y subir tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y subiendo el código a tu nuevo repositorio usando los comandos `add`, `commit` y `push` desde el terminal git.
 
 ## Acerca del proyecto que vamos a construir
 
