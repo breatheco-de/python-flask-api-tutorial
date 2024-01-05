@@ -6,10 +6,10 @@ Cuando la aplicación se ejecute, usará tu línea de comando, ya no podrás esc
 
 ## 📝 Instrucciones:
 
-1. Añade las siguientes líneas al final de tu archivo `src/app.py`:
+1. Añade las siguientes líneas al final de tu archivo `app.py`:
 
 ```python
-# Estas dos líneas siempre seben estar al final de tu archivo app.py.
+# Estas dos líneas siempre deben estar al final de tu archivo app.py
 
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=3245, debug=True)
