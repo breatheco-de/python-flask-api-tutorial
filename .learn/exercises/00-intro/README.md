@@ -1,6 +1,6 @@
 # Welcome to Flask!
 
-In this tutorial we are going to be building a REST API that exposes 3 endpoints to the internet:
+In this tutorial, we are going to be building a REST API that exposes 3 endpoints to the Internet:
 
 ```txt
 GET /todos
@@ -8,7 +8,7 @@ POST /todos
 DELETE /todos/<int:position>
 ```
 
-## **GET /todos** 
+## GET /todos
 
 It will return the list of all todos in a JSON format like this:
 
@@ -25,7 +25,7 @@ It will return the list of all todos in a JSON format like this:
 ]
 ```
 
-## **POST /todos**
+## POST /todos
 
 The POST method is going to add a new todo to the list by sending the following request body:
 
@@ -36,7 +36,7 @@ The POST method is going to add a new todo to the list by sending the following 
 }
 ```
 
-And then, it returns the updated list of todos:
+And then it returns the updated list of todos:
 
 ```javascript
 [
@@ -55,6 +55,6 @@ And then, it returns the updated list of todos:
 ]
 ```
 
-## **DELETE /todos/<int:position>**
+## DELETE /todos/<int:position>
 
-The DELETE method is going to remove one todo based on a given position at the end of the url, and return the updated list of todos.
+The DELETE method is going to remove one todo based on a given position at the end of the URL and return the updated list of todos.

@@ -4,7 +4,7 @@ import toml, pytest, os
 def test_pipfile_exists():
   assert os.path.isfile("Pipfile")
 
-@pytest.mark.it("Flask must exist on the pipfile dependency [packages]")
+@pytest.mark.it("Flask must exist on the Pipfile dependency [packages]")
 def test_pipfile_contains_flask():
   with open("Pipfile", "r") as f:
     toml_content = f.read()
