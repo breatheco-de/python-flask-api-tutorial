@@ -1,6 +1,6 @@
 # Welcome to Flask!
 
-In this tutorial, we are going to be building a REST API that exposes 3 endpoints to the internet:
+In this tutorial, we are going to be building a REST API that exposes 3 endpoints to the Internet:
 
 ```txt
 GET /todos
