@@ -25,5 +25,5 @@ app = Flask(__name__)
 
 2. Dentro de ella, crea un archivo `app.py`. 
 
-3. Añade el código necesario para crear una nueva app Flask especificada en las intrucciones anteriores.
+3. Añade el código necesario para crear una nueva app Flask especificada en las instrucciones anteriores.
 
