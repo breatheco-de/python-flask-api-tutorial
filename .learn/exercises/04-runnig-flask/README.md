@@ -1,6 +1,6 @@
 # `04` Demo your API!
 
-Go ahead and check your API endpoint by typing this URL on your browser, and you should see the `Hello!` message like this:
+Go ahead and check your API endpoint by adding `/todos` after the URL you got from running the Flask application, and you should see the `Hello!` message like this:
 
 ![Demo your API](../../assets/check-live.gif?raw=true)
 
@@ -19,5 +19,4 @@ If running locally:
 ```txt
 https://localhost:3245/todos
 ```
-
 
