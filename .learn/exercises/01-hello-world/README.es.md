@@ -14,7 +14,7 @@ Si estás en Codespaces o Gitpod, no tienes que instalar nada, Pipenv y Python 3
 
 ## 📝 Instrucciones:
 
-1. Abre una nueva terminal (y mantela abierta).
+1. Abre una nueva terminal (y mantenla abierta).
 
 2. Asegúrate de tener la versión 3 de Python:
 
