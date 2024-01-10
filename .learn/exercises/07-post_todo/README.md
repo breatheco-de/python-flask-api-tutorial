@@ -8,12 +8,12 @@ POST /todos
 DELETE /todos
 ```
 
-In order to build the `POST /todos` endpoint, we have to do something similar to what we did in the first endpoint with our GET method. Remember that each endpoint in a Flask API is represented by decorator `@app.route()` and a function `def my_function():` like this:
+In order to build the `POST /todos` endpoint, we have to do something similar to what we did in the first endpoint with our GET method. Remember that each endpoint in a Flask API is represented by decorator and a function, like this:
 
 ```python
 @app.route('/myroute', methods=['GET'])
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello World!'
 ```
 
 In this case, we are not going to be expecting a `GET` request, but rather a `POST` request.
@@ -23,19 +23,13 @@ Also, we are expecting to receive the TODO that the client wants to add inside o
 ```python
 from flask import request
 
-# The request body is already JSON decoded, and it comes in the request.json variable
-print(request.json)
+# The request body is already JSON decoded, and it comes in the request.data variable
+print(request.data)
 ```
 
 ## 📝 Instructions:
 
-1. Remember to import `request` at the top of the file:
-
-```python
-from flask import request
-```
-
-2. Then, add the following endpoint to your app.py and test it:
+1. Add the following endpoint to your `app.py` and test it:
 
 ```python
 @app.route('/todos', methods=['POST'])
@@ -44,3 +38,11 @@ def add_new_todo():
     print("Incoming request with the following body", request_body)
     return 'Response for the POST todo'
 ```
+
+2. Remember to import `request` at the top of the file:
+
+```python
+from flask import request
+```
+
+
