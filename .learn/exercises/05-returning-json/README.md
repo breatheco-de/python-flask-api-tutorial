@@ -20,7 +20,7 @@ def hello_world():
     return json_text
 ```
 
-If we apply this knowledge to our ToDo-list project, we can create a global variable named `todos` that will hold the list of todos like this:
+If we apply this knowledge to our todo-list project, we can create a global variable named `todos` that will hold the list of todos like this:
 
 ```python
 todos = [
