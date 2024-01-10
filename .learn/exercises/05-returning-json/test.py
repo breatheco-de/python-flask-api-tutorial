@@ -63,7 +63,7 @@ def test_labels_string():
         if "label" in task:
             assert isinstance(task["label"], str)
 
-@pytest.mark.it('The value of the "done" key on each todo should be boolean')
+@pytest.mark.it('The value of the "done" key on each todo should be a boolean')
 def test_done_bool():
     from src import app
     for task in app.todos:
