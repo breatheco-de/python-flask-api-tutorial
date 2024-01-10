@@ -23,8 +23,8 @@ También, esperamos recibir el TODO que el cliente quiere añadir dentro del `re
 ```python
 from flask import request
 
-# El request_body o cuerpo de la solicitud ya está decodificado en formato JSON y se encuentra en la variable request.data  
-print(request.data)
+# El request_body o cuerpo de la solicitud ya está decodificado en formato JSON y se encuentra en la variable request.json  
+print(request.json)
 ```
 
 ## 📝 Instrucciones:
@@ -34,7 +34,7 @@ print(request.data)
 ```python
 @app.route('/todos', methods=['POST'])
 def add_new_todo():
-    request_body = request.data
+    request_body = request.json
     print("Incoming request with the following body", request_body)
     return 'Response for the POST todo'
 ```
