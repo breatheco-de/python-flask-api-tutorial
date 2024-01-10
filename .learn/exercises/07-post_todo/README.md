@@ -23,8 +23,8 @@ Also, we are expecting to receive the TODO that the client wants to add inside o
 ```python
 from flask import request
 
-# The request body is already JSON decoded, and it comes in the request.data variable
-print(request.data)
+# The request body is already JSON decoded, and it comes in the request.json variable
+print(request.json)
 ```
 
 ## 📝 Instructions:
@@ -34,7 +34,7 @@ print(request.data)
 ```python
 @app.route('/todos', methods=['POST'])
 def add_new_todo():
-    request_body = request.data
+    request_body = request.json
     print("Incoming request with the following body", request_body)
     return 'Response for the POST todo'
 ```
