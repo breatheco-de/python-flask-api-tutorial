@@ -2,7 +2,7 @@
 
 Las REST APIs tienen que retornar datos en formato JSON, no en formato HTML.
 
-Puedes usar la función [flask jsonify](https://flask.palletsprojects.com/en/1.1.x/api/#flask.json.jsonify) para convertir con facilidad cualquier tipo de datos básico a JSON de esta forma:
+Puedes usar la función [flask jsonify](https://flask.palletsprojects.com/en/3.0.x/api/#flask.json.jsonify) para convertir con facilidad cualquier tipo de datos básico a JSON de esta forma:
 
 ```python
 # añade el método jsonify a tu importación de Flask
