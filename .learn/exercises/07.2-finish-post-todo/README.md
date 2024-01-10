@@ -3,7 +3,6 @@
 Your code should look like this by now:
 
 ```python
-
 @app.route('/todos', methods=['POST'])
 def add_new_todo():
     request_body = request.json
