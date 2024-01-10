@@ -1,4 +1,4 @@
-# `07` POST /todos (añade un nuevo task)
+# `07` POST /todos (add a new task)
 
 Ahora que ya está hecho el método GET `/todos`, debemos pensar en el resto de los endpoints de nuestra API:
 
@@ -8,25 +8,22 @@ POST /todos
 DELETE /todos
 ```
 
-Para poder construir el `POST /todos` debemos hacer algo similar a lo que hicimos en el primer endpoint, recuerda que cada endpoint en una Flask API está representada por una función y decorador como este:
+Para poder construir el `POST /todos` debemos hacer algo similar a lo que hicimos en el primer endpoint, recuerda que cada endpoint en una Flask API está representada por una función y un decorador de esta manera:
 
 ```python
-@app.route('/blabla', methods=['GET'])
+@app.route('/myroute', methods=['GET'])
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello World!'
 ```
 
-Pero en este caso no esperaremos una solicitud `GET`.
+Pero en este caso no esperaremos una solicitud `GET`, sino una solicitud `POST`.
 
-También, esperamos recibir el `todo` (tarea) que el cliente quiere añadir dentro del `request_body` (cuerpo de la solicitud), solo que en este caso, no esperaremos una `request`(solicitud) `GET`.
-
-Esperamos recibir el `todo` que el cliente desea añadir dentro del `request_body`.
+También, esperamos recibir el TODO que el cliente quiere añadir dentro del `request_body` (cuerpo de la solicitud).
 
 ```python
 from flask import request
 
-# el request_body o cuerpo de la solicitud ya fue decodificado por json y se encuentra en la variable request.data  
-
+# El request_body o cuerpo de la solicitud ya está decodificado en formato JSON y se encuentra en la variable request.data  
 print(request.data)
 ```
 
