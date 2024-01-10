@@ -13,13 +13,13 @@ def add_new_todo():
 
 Now... if we want to finish our `POST` method, we have to perform the following specific actions:
 
-+ First: Make sure that you are converting the request body into a real python data structure, like a dictionary. You can see that we already used `request.json` for that since we know the request will be in application/json. However, if that is not known, you may want to use `request.get_json(force=True)` to ignore the content type and treat it like json. 
++ First: Make sure that you are converting the request body into a real Python data structure, like a dictionary. You can see that we already used `request.json` for that since we know the request will be in `application/json`. However, if that is not known, you may want to use `request.get_json(force=True)` to ignore the content type and treat it like json. 
 
 + Second: Add the dictionary into the list of `todos`.
 
 + Last: Return the new list of `todos`.
 
-Currently, this endopint is not adding anything new to our 'database' (the `todo` list). 
+Currently, this endppint is not adding anything new to our 'database' (the `todos` list). 
 
 Let's complete our code so the endpoint can do its job - add a new task to the `todos` list.
 
@@ -30,4 +30,4 @@ Let's complete our code so the endpoint can do its job - add a new task to the `
 
 2. Return the updated list `todos` to the front end. 
 
-3. Do not forget to `jsonify` your return. Why is this necessary? Ask instructor to discuss with the class. 
+3. Do not forget to `jsonify` your return. Why is this necessary? Ask the instructor to discuss this with the class. 
