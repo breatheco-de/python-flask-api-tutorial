@@ -18,7 +18,7 @@ Now... if we want to finish our `POST` method, we have to perform the following 
 
 + Last: Return the new list of `todos`.
 
-Currently, this endppint is not adding anything new to our 'database' (the `todos` list). 
+Currently, this endpoint is not adding anything new to our 'database' (the `todos` list). 
 
 Let's complete our code so the endpoint can do its job - add a new task to the `todos` list.
 
