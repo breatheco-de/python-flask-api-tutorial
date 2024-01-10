@@ -16,11 +16,11 @@ def client():
         os.close(db_fd)
         os.unlink(app.config['DATABASE'])
 
-@pytest.mark.it("folder src must exist")
+@pytest.mark.it("Folder src must exist")
 def test_src_folder():
   assert os.path.isdir("./src/")
 
-@pytest.mark.it("app.py must exist")
+@pytest.mark.it("File app.py must exist")
 def test_pipfile_exists():
   assert os.path.isfile("src/app.py")
 
