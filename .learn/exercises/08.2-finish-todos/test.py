@@ -16,11 +16,11 @@ def client():
         os.close(db_fd)
         os.unlink(app.config['DATABASE'])
 
-@pytest.mark.it("folder src must exist")
+@pytest.mark.it("Folder src must exist")
 def test_src_folder():
   assert os.path.isdir("./src/")
 
-@pytest.mark.it("app.py must exist")
+@pytest.mark.it("File app.py must exist")
 def test_pipfile_exists():
   assert os.path.isfile("src/app.py")
 
@@ -63,7 +63,7 @@ def test_labels_string():
         if "label" in task:
             assert isinstance(task["label"], str)
 
-@pytest.mark.it('The value of the "done" key on each todo should be boolean')
+@pytest.mark.it('The value of the "done" key on each todo should be a boolean')
 def test_done_bool():
     from src import app
     for task in app.todos:
@@ -142,9 +142,8 @@ def test_incoming_list(client):
             matches.append(task)
     assert 1 == len(matches)
 
-"""
-Testing DELETE
-"""
+
+# Testing DELETE
 
 @pytest.mark.it("The function delete_todo should be declared")
 def test_delete():

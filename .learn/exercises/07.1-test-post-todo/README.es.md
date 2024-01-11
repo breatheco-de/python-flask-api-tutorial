@@ -5,7 +5,7 @@ Hasta ahora esto lo que tienes sobre el endpoint `POST /todos`, tomate el tiempo
 ```python
 @app.route('/todos', methods=['POST'])
 def add_new_todo():
-    request_body = request.data
+    request_body = request.json
     print("Incoming request with the following body", request_body)
     return 'Response for the POST todo'
 ```

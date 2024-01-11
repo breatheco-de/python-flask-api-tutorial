@@ -5,7 +5,7 @@ Hasta ahora esto es lo que tienes sobre el endpoint  `DELETE /todos/<int:positio
 ```python
 @app.route('/todos/<int:position>', methods=['DELETE'])
 def delete_todo(position):
-    print("This is the position to delete: ",position)
+    print("This is the position to delete:", position)
     return 'something'
 ```
 

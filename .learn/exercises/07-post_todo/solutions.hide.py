@@ -9,11 +9,11 @@ def hello_world():
 
 @app.route('/todos', methods=['POST'])
 def add_new_todo():
-    request_body = request.data
+    request_body = request.json
     print("Incoming request with the following body", request_body)
     return 'Response for the POST todo'
 
 
-# These two lines should always be at the end of your app.py file.
+# These two lines should always be at the end of your app.py file
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3245, debug=True)
