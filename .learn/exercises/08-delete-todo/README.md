@@ -7,7 +7,7 @@ The main difference is that `DELETE /todos/<position:int>` will receive the posi
 ```python
 @app.route('/todos/<int:position>', methods=['DELETE'])
 def delete_todo(position):
-    print("This is the position to delete: ", position)
+    print("This is the position to delete:", position)
     return 'something'
 ```
 
