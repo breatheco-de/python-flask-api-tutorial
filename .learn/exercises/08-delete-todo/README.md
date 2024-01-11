@@ -1,6 +1,6 @@
 # `08` Delete todo
 
-Deleting a todo is basically the opposite of adding a new one, so you should use 90% of the code from the 'POST /todos' feature.
+Deleting a todo is basically the opposite of adding a new one, so you should use 90% of the code from the `POST /todos` feature.
 
 The main difference is that `DELETE /todos/<position:int>` will receive the position to delete in the URL of the request like this:
 
