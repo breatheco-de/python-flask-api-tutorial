@@ -95,7 +95,7 @@ def test_return(client):
 
 
 @pytest.mark.it("Pass the todo list to the jsonify function and return the output of the function")
-def test_return(client):
+def test_return_json(client):
     response = client.get('/todos')
     _body = json.loads(response.data)
 
@@ -116,6 +116,6 @@ def test_add_new_todo():
 
 
 @pytest.mark.it("The endpoint POST /todos should exist")
-def test_return(client):
+def test_return_endpoint(client):
     response = client.post('/todos', json=json.dumps({}))
     assert response.status_code in [200, 201]
