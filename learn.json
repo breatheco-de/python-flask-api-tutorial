@@ -1,27 +1,30 @@
 {
-    "title": "Todo List API with Python Flask Interactive",
-    "slug": "python-flask-api-tutorial",
-    "status": "published",
-    "solution": "https://github.com/breatheco-de/todo-list-api-interactive/tree/solution",
-    "repository": "https://github.com/breatheco-de/python-flask-api-tutorial",
-    "preview": "https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.learn/assets/preview.png?raw=true",
-    "duration": 6,
-    "grading": "incremental",
-    "difficulty": "easy",
-    "videoSolutions": false,
-    "projectType": "tutorial",
-    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "description": "Create a Todo list API Interactively using Python language and the Flask Framework",
-    "technologies": [
-        "python",
-        "terminal",
-        "command-line",
-        "APIs",
-        "REST"
-    ],
-    "editor": {
-        "version": "3.1.23"
-    },
-    "autoPlay": true,
-    "projectType": "tutorial"
+"title": "Todo List API with Python Flask Interactive",
+"slug": "python-flask-api-tutorial",
+"status": "published",
+"solution": "https://github.com/breatheco-de/todo-list-api-interactive/tree/solution",
+"repository": "https://github.com/breatheco-de/python-flask-api-tutorial",
+"preview": "https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.learn/assets/preview.png?raw=true",
+"duration": 6,
+"grading": "incremental",
+"difficulty": "easy",
+"videoSolutions": false,
+"projectType": "tutorial",
+"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+"description": "Create a Todo list API Interactively using Python language and the Flask Framework",
+"technologies": [
+    "python",
+    "terminal",
+    "command-line",
+    "APIs",
+    "REST"
+],
+"editor": {
+    "version": "3.1.36"
+},
+"telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+},
+"autoPlay": true,
+"projectType": "tutorial"
 }
