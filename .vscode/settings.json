@@ -1,6 +1,7 @@
 {
     "editor.minimap.enabled": false,
-    "workbench.editorAssociations": {   
-        "*.md": "vscode.markdown.preview.editor"
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor",
+        "*.pyc": "default"
     }
 }
