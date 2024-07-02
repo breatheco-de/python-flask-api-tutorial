@@ -7,7 +7,7 @@
     "preview": "https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.learn/assets/preview.png?raw=true",
     "duration": 6,
     "grading": "incremental",
-    "difficulty": "easy",
+    "difficulty": "beginner",
     "videoSolutions": false,
     "projectType": "tutorial",
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
@@ -21,6 +21,9 @@
     ],
     "editor": {
         "version": "3.1.40"
+    },
+    "telemetry": {
+        "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
     },
     "autoPlay": true,
     "projectType": "tutorial"
