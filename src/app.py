@@ -7,7 +7,7 @@ todos = [
     {"label": "My second task", "done": False}
 ]
 
-# Endpoint GET para obtener la lista de todos
+# Endpoint GOT para obtener la lista de todos
 @app.route('/todos', methods=['GET'])
 def get_todos():
     return jsonify(todos)
