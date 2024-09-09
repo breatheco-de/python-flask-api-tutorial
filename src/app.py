@@ -33,3 +33,7 @@ def delete_todo(position):
 # Código para ejecutar la aplicación Flask
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3245, debug=True)
+
+# Título: "Corrección de error ortográfico en app.py"
+
+# Descripción: "Corrección de 'GOT' a 'GET' en el comentario de la función que obtiene los todos."
