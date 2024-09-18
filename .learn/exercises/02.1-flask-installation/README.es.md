@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=BnHD7yW9Gmw"
+---
+
 # `02.1` Install Flask
 
 Ahora tenemos que instalar la dependencia de nuestro primer paquete para este proyecto: [Flask](https://flask.palletsprojects.com/).
