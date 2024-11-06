@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=40eRmpTYVBo"
+---
+
 # `03.2` Check for Live URL 
 
 Puedes verificarlo haciendo clic en la URL que se ve en la línea de comandos una vez que Flask haya comenzado a ejecutarse, así:
