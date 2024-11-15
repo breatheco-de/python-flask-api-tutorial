@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=5ZyRzKESrEM"
+---
+
 # `01` Hello World with Flask 
 
 En este tutorial construiremos una REST API utilizando el lenguaje de programación Python y la librería de [Flask](https://flask.palletsprojects.com/) (ideal para crear APIs).
