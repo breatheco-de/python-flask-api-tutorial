@@ -1,7 +1,5 @@
 <!--hide-->
 # API de Lista de Tareas en Python Flask
-
-<a href="https://www.breatheco.de"><img height="280" align="right" src="https://raw.githubusercontent.com/breatheco-de/python-flask-api-tutorial/3ffb90ea974146f57a3bdfd59665b4c4d5d05197/.breathecode/assets/badge.svg"></a>
 <!--endhide-->
 
 Este es un tutorial interactivo que te enseñará cómo crear una API usando el framework Python Flask y Pipenv
@@ -10,21 +8,28 @@ Este es un tutorial interactivo que te enseñará cómo crear una API usando el 
     
 ## 🌱 Cómo comenzar este proyecto
 
-Este proyecto viene con los archivos necesarios para comenzar a trabajar de inmediato.
+Hay dos formas de empezar:
 
-Recomendamos abrir este mismo repositorio usando un entorno de desarrollo como [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod). Alternativamente, puedes clonarlo en tu computadora local usando el comando `git clone`.
+a) Abrir este enlace con [Codespaces](https://4geeks.com/es/lesson/tutorial-de-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/es/lesson/como-utilizar-gitpod) en tu navegador: https://github.com/codespaces/new/?repo=4GeeksAcademy/python-hello
 
-Este es el repositorio que necesitas abrir:
+b) Clonar este repositorio localmente en tu computador:
 
-```text
-https://github.com/breatheco-de/python-flask-api-tutorial
+```sh
+$ git clone https://github.com/4GeeksAcademy/python-hello
 ```
 
-**👉 Por favor sigue estos pasos sobre** [cómo comenzar un proyecto de programación](https://4geeks.com/es/lesson/como-comenzar-un-proyecto-de-codificacion).
+### Pasos
 
-> 💡 Importante: Recuerda guardar y subir tu código en GitHub creando un nuevo repositorio, actualizando el remoto (`git remote set-url origin <your new url>`) y subiendo el código a tu nuevo repositorio usando los comandos `add`, `commit` y `push` desde la terminal de git.
+- Si trabajas localmente, debe tener python [instalado](https://4geeks.com/es/how-to/como-instalar-python).
+
+- Deberías abrir el terminal en la ruta de esta plantilla y ejecutar `$ python3 app.py`, si todo funciona correctamente, debería mostrar `Hello World` en el terminal.
+
+- Puedes probar tu código escribiendo `$ python3 test.py`.
+
+💡 Importante: Recuerda actualizar el `remote` del proyecto con el de tu repositorio usando `git remote set-url origin <your new url>`, y luego guardar tu código en tu nuevo repositorio usando `add`, `commit` y `push`.
 
 </onlyfor>
+
 ## Acerca del proyecto que vamos a construir
 
 En este tutorial, crearemos una API REST que expone 3 endpoints a Internet:
