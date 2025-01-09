@@ -21,7 +21,8 @@
         "REST"
     ],
     "editor": {
-        "version": "4.0"
+        "version": "5.0",
+        "agent": "vscode"
     },
     "telemetry": {
         "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
