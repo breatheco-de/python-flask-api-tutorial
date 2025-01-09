@@ -1,7 +1,9 @@
 {
-    "title": "Todo List API with Python Flask Interactive",
+    "title": {
+        "us": "Interactive Todo List API with Python and Flask",
+        "es": "API de Lista de Tareas Interactiva con Python y Flask"
+    },
     "slug": "python-flask-api-tutorial",
-    "status": "published",
     "solution": "https://github.com/breatheco-de/python-flask-api-tutorial/tree/solution",
     "repository": "https://github.com/breatheco-de/python-flask-api-tutorial",
     "preview": "https://github.com/breatheco-de/python-flask-api-tutorial/blob/master/.learn/assets/preview.png?raw=true",
@@ -9,12 +11,15 @@
     "template_url": "self",
     "grading": "incremental",
     "difficulty": "beginner",
-    "videoSolutions": false,
-    "projectType": "tutorial",
+    "videoSolutions": true,
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "description": "Create a Todo list API Interactively using Python language and the Flask Framework",
+    "description": {
+        "us": "Create a Todo list API Interactively using Python language and the Flask Framework. This tutorial covers technologies such as Python, terminal, command-line, APIs, and REST. The objective is to teach you how to build a functional API from scratch. By the end of this tutorial, you will have learned how to set up a Flask project, create endpoints, handle requests and responses, and manage data with a database.",
+        "es": "Crea una API de lista de tareas de forma interactiva utilizando el lenguaje Python y el framework Flask. Este tutorial cubre tecnologías como Python, terminal, línea de comandos, APIs y REST. El objetivo es enseñarte a construir una API funcional desde cero. Al final de este tutorial, habrás aprendido a configurar un proyecto Flask, crear endpoints, manejar solicitudes y respuestas, y gestionar datos con una base de datos."
+    },
     "technologies": [
         "python",
+        "flask",
         "terminal",
         "command-line",
         "APIs",
@@ -23,6 +28,11 @@
     "editor": {
         "version": "5.0",
         "agent": "vscode"
+    },
+    "video": {
+        "intro": {
+            "es": "https://www.youtube.com/watch?v=O5R0QVGWwEs"
+        }
     },
     "telemetry": {
         "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
