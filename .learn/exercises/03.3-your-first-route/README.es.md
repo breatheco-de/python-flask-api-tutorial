@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=g13zIxQ9c6Y"
+---
+
+
 # `03.3` Creating Your First Endpoint (route)
 
 Como Flask es un servidor, no tiene sentido no añadirle URLs para exponerlas/publicarlas en internet, por ejemplo:

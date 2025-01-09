@@ -1,3 +1,7 @@
+---
+intro: "https://www.youtube.com/watch?v=O5R0QVGWwEs"
+---
+
 # Welcome to Flask!
 
 En este tutorial vamos a construir una REST API que expone 3 endpoints a Internet:
