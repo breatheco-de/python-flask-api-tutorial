@@ -34,7 +34,7 @@ def test_declare_variable2():
     path = 'src/app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
-        regex = re.compile(r"@app\.route(\s*)\((\s*)'\/[a-zA-Z0-9]+'(\s*),(\s*)methods=(\s*)\[(\s*)'GET'(\s*)\](\s*)\)")
+        regex = re.compile(r"@app\.route(\s*)\((\s*)[\'\"]\/[a-zA-Z0-9]+[\'\"](\s*),(\s*)methods=(\s*)\[(\s*)[\'\"]GET[\'\"](\s*)\](\s*)\)")
         assert bool(regex.search(content)) == True
 
 @pytest.mark.it("Make sure '/todos' is the route you specified inside the @app.route decorator")
@@ -42,7 +42,7 @@ def test_declare_variable3():
     path = 'src/app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
-        regex = re.compile(r"'\/todos'")
+        regex = re.compile(r"[\'\"]\/todos[\'\"]")
         assert bool(regex.search(content)) == True
 
 @pytest.mark.it("Endpoint for path '/todos' must exist")
